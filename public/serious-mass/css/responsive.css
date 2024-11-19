@@ -1,0 +1,2222 @@
+/* Eventa - Digital Conference HTML Template */
+
+@media only screen and (min-width: 1900px) {
+    .col-xxl-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    .col-xxl-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-xxl-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xxl-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-xxl-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-xxl-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-xxl-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-xxl-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-xxl-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-xxl-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-xxl-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-xxl-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /*========================================================================================
+        Header/Navigation Styles
+    ========================================================================================*/
+    .start-header {
+        padding: 15px 0;
+    }
+    .navigation-wrap .container {
+        max-width: 1360px;
+    }
+    .navbar-brand img {
+        width: 250px;
+    }
+    .page-content {
+        padding-top: 93px;
+    }
+    /*========================================================================================
+        Home Page Styles
+    ========================================================================================*/
+    .product-auth-verification-section {
+        min-height: 700px;
+    }
+    .product-auth-verification-section .product-authentication-container .product-auth-form .title h3 {
+        font-size: 35px;
+    }
+    .product-auth-verification-section .product-authentication-container .product-auth-form {
+        width: 50%;
+    }
+    .product-auth-verification-section .product-verification-container .product-image {
+        width: 560px;
+        right: 10%;
+    }
+    .product-auth-verification-section .product-verification-container .verification-counter .number {
+        font-size: 100px;
+    }
+    .product-verification-status-container .status-box .title h1 {
+        font-size: 80px;
+    }
+    .product-verification-status-container .status-box .color-box {
+        background: #000;
+        height: 520px;
+        clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+        margin-top: -320px;
+    }
+    /*========================================================================================
+        Product Page Common Styles
+    ========================================================================================*/
+    .product-intro-section {
+        min-height: 700px;
+    }
+    .product-intro-section .product-pack-shot .title-box {
+        position: relative;
+        padding-left: 40px;
+        padding-top: 164px;
+    }
+    .product-intro-section .product-pack-shot .title-box h3 {
+        font-size: 47px;
+        line-height: 57px;
+    }
+    .product-intro-section .product-pack-shot .title-box h2 {
+        font-size: 90px;
+        line-height: 75px;
+    }
+    .product-intro-section .product-pack-shot .title-box p.sub-text {
+        max-width: 550px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font h3 {
+        font-size: 60px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font h2.text-with-bg {
+        font-size: 60px;
+        padding: 10px 16px;
+        line-height: 58px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font p.sub-text {
+        max-width: 460px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .product-intro-section .product-pack-shot .product-image {
+        right: -40px;
+        bottom: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .product-short-features-section {
+        padding-top: 168px;
+        padding-bottom: 148px;
+    }
+    .product-short-features-section .feature-text-box {
+        width: 53%;
+        left: 45%;
+    }
+    .product-description-section .product-description-box .title h2,
+    .product-description-section .product-description-box .title h1 {
+        font-size: 72px;
+        line-height: 82px;
+    }
+    .product-description-section .product-description-box {
+        padding-left: 115px;
+    }
+    .product-description-section .product-description-box .text-box {
+        width: 45%;
+    }
+    .product-description-section .product-description-box .text-box p {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .product-ingredients-details {
+        position: absolute;
+        right: 10%;
+        bottom: -20%;
+        text-align: center;
+    }
+    .product-ingredients-details ul li {
+        display: inline-block;
+        margin-bottom: 35px;
+        margin-right: 20px;
+    }
+    .product-ingredients-details ul li span.amount-of-ingredients {
+        font-size: 72px;
+    }
+    .product-ingredients-details ul li span.amount-of-ingredients span.sub-text {
+        font-size: 36px;
+    }
+    .product-ingredients-details .note-text p {
+        font-size: 30px;
+        list-style: 36px;
+    }
+    .product-description-section .product-image {
+        position: absolute;
+        width: 45%;
+        top: 15%;
+        right: 80px;
+    }
+    .product-short-features-section .feature-text-box .title h2 {
+        font-size: 72px;
+        line-height: 82px;
+    }
+    .product-short-features-section .feature-text-box .text p {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .product-short-features-section .feature-text-box .text ul li {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    /****************************************************/
+    /*    Product WH Section Styles     */
+    /****************************************************/
+    .product-3W-section .WH-text-box h3 {
+        font-size: 42px;
+    }
+    .product-3W-section .WH-text-box ul li {
+        font-size: 30px;
+    }
+    .product-WH-section.has-title-box .title-box h1 {
+        font-size: 120px;
+        line-height: 115px;
+    }
+    .product-WH-section .product-info-box .title {
+        width: 26%;
+    }
+    .product-WH-section .product-info-box .title h1,
+    .product-WH-section .product-info-box .title h2.product-name {
+        font-size: 90px;
+        line-height: 72px;
+    }
+    .product-WH-section .product-info-box .title h2.product-name:before {
+        left: -50px;
+        top: 38px;
+        font-size: 25px;
+        transform: rotate(-90deg);
+    }
+    .product-WH-section .product-info-box .title {
+        padding-left: 30px;
+    }
+    .product-WH-section .product-info-box .title p {
+        font-size: 70px;
+    }
+    .product-WH-section .product-info-box .product-tub {
+        width: 34%;
+    }
+    .product-WH-section .product-info-box .product-tub img {
+        width: 95%;
+    }
+    .product-WH-section .product-info-box .WH-box {
+        width: 34%;
+        text-align: right;
+    }
+    /****************************************************/
+    /*    Section Name Styles     */
+    /****************************************************/
+    .product-benefits-section .container-fluid {
+        width: 1340px;
+    }
+    /****************************************************/
+    /*    Health Tips Section Styles     */
+    /****************************************************/
+    .health-tips-section .tips-card-container .tips-card {
+        min-height: 500px;
+        margin: 30px;
+    }
+    .ON-more-products-section .product-box .overlay-btn-box a {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .ON-more-products-section .product-box .product-image {
+        min-height: 480px;
+        padding: 60px 40px 0 40px;
+    }
+    .ON-more-products-section .product-box .product-image img {
+        width: 400px;
+    }
+    /****************************************************/
+    /*    GS Whey Styles     */
+    /****************************************************/
+    .product-whey .product-intro-section .product-pack-shot .product-image {
+        width: 100%;
+    }
+    .product-whey .product-ingredients-details {
+        right: 18%;
+        bottom: -10%;
+    }
+    /****************************************************/
+    /*    GS Isolate Styles     */
+    /****************************************************/
+    .product-isolate .product-intro-section .product-pack-shot .title-box h2 {
+        font-size: 70px;
+        line-height: 60px;
+    }
+    .product-isolate .product-ingredients-details {
+        position: absolute;
+        right: 18%;
+    }
+    /****************************************************/
+    /*    Serious Mass Product Page Styles     */
+    /****************************************************/
+    .serious-mass .product-intro-section .product-pack-shot .title-box h2 {
+        font-size: 70px;
+        line-height: 60px;
+        margin-bottom: 5px;
+    }
+    .serious-mass .product-intro-section .product-pack-shot .title-box h3 {}
+    .serious-mass .product-intro-section .product-pack-shot .title-box p.sub-text {
+        margin-top: 15px;
+    }
+    .serious-mass .product-description-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .serious-mass .product-short-features-section .feature-text-box {
+        width: 44%;
+        left: 46%;
+    }
+    .serious-mass .product-short-features-section {
+        padding-top: 70px;
+    }
+    .serious-mass .product-description-section .product-image {
+        width: 55%;
+        top: 7%;
+        right: 0;
+    }
+    .serious-mass .product-ingredients-details {
+        right: 12%;
+    }
+    /****************************************************/
+    /*    Amino Energy Product Page Styles     */
+    /****************************************************/
+    .product-amino-energy .product-intro-section .product-pack-shot .title-box p.sub-text {
+        margin-top: 15px;
+    }
+    .product-amino-energy .product-intro-section .product-pack-shot .title-box h2 {
+        font-size: 70px;
+        line-height: 60px;
+        margin-bottom: 5px;
+    }
+    .product-amino-energy .product-intro-section .product-pack-shot .product-image {
+        right: -80px;
+        width: 100%;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box {
+        position: relative;
+        width: 45%;
+        left: 48%;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box .title h2 {
+        font-size: 72px;
+        line-height: 82px;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box .text p {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .product-amino-energy .product-description-section .product-image {
+        width: 50%;
+        right: 0px;
+    }
+    .product-amino-energy .product-ingredients-details {
+        margin-top: 60px;
+    }
+    .product-amino-energy .product-ingredients-details {
+        position: absolute;
+        right: 20%;
+        bottom: -18%;
+        text-align: center;
+    }
+    .product-amino-energy .product-description-section {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    /*========================================================================================
+            BCAA Boost Product Page Styles
+    ========================================================================================*/
+    .product-bcaa-boost .product-intro-section .product-pack-shot .product-image {
+        right: -80px;
+        width: 100%;
+    }
+    .product-main-slider .main-slider .slide-item.product-bcaa-boost .content-box .text {
+        width: 80%;
+    }
+    /*========================================================================================
+        Product Main Slider Styles
+    ========================================================================================*/
+    .product-main-slider .main-slider .slide-item {
+        min-height: 700px;
+    }
+    .product-main-slider .main-slider .slide-item .product-image {
+        width: 530px;
+    }
+    .product-main-slider .main-slider .slide-item .product-image img {
+        width: 530px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .title a {
+        font-size: 75px;
+        line-height: 72px;
+        /* letter-spacing: -5.25px; */
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text p {
+        width: 75%;
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .btn-box .btn.btn-with-border {
+        font-size: 25px;
+    }
+    /*========================================================================================
+        Our Story Page Styles
+    ========================================================================================*/
+    .on-story-page .our-specialty-section {
+        padding-top: 100px;
+        padding-bottom: 250px;
+    }
+    .on-story-page .our-specialty-section .container {
+        max-width: 100%;
+    }
+    .on-story-page .our-specialty-section .row {
+        width: 1320px;
+        margin: 0 auto;
+    }
+    .on-story-page .our-specialty-section .title h2 {
+        font-size: 60px;
+    }
+    .on-story-page .product-video-section .title h2 {
+        font-size: 60px;
+    }
+    .on-story-page .product-video-section .video-box .btn-overlay-box a.play-btn i {
+        font-size: 100px;
+    }
+    .on-story-page .our-goal-section .title h2 {
+        font-size: 60px;
+    }
+    .on-story-page .our-goal-section .icon-box-container {
+        width: 1320px;
+        margin: 0 auto;
+    }
+    .on-story-page .product-marketing-section {
+        padding: 0 150px;
+    }
+    .on-story-page .product-marketing-section .container {
+        max-width: 100%;
+    }
+    .on-story-page .product-marketing-section .row {
+        width: 1320px;
+        margin: 0 auto;
+    }
+    .on-story-page .product-marketing-section .text-box h1 {
+        font-size: 54px;
+    }
+    .on-story-page .product-marketing-section .text-box h2 {
+        font-size: 53px;
+        line-height: 53px;
+    }
+    .on-story-page .product-marketing-section .text-box p {
+        font-size: 42px;
+    }
+    .on-story-page .product-marketing-section {
+        padding: 20px 200px;
+    }
+    .on-story-page .product-marketing-section .product-image {
+        position: absolute;
+        right: -100px;
+        bottom: -20px;
+        width: 620px;
+    }
+    .on-story-page .video-section .video-box-container .video-box {
+        min-height: 645px;
+    }
+    .on-story-page .video-section .video-box-container .video-box .icon i {
+        font-size: 100px;
+    }
+    .on-story-page .video-section .video-box-container .video-box h3 {
+        font-size: 34px;
+        line-height: 36px;
+    }
+    .on-story-page .video-section .video-box-container .video-box p {
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .on-story-page .our-specialty-section .product-info-box p.desc {
+        min-height: 70px;
+    }
+    /*========================================================================================
+        Retailer Page Styles
+    ========================================================================================*/
+    .retailer-page .welcome-text-section {
+        min-height: 540px;
+    }
+    .retailer-page .welcome-text-section .title h2 {
+        font-size: 100px;
+    }
+    /*========================================================================================
+            Article Page Styles
+    ========================================================================================*/
+    .article-page,
+    .recipe-page,
+    .athletes-page {
+        max-width: 1340px;
+        padding: 0;
+        padding-top: 60px;
+        margin: 0 auto;
+    }
+    /*========================================================================================
+            Recipe Page Styles
+    ========================================================================================*/
+    .recipe-page {}
+    /*========================================================================================
+            Recipe Details Page Styles
+    ========================================================================================*/
+    .recipe-details-page {
+        max-width: 1300px;
+        padding: 0;
+        padding-top: 30px;
+        margin: 0 auto;
+        padding-bottom: 60px;
+    }
+    .site-map-page-content {
+        padding-top: 30px;
+        min-height: 700px;
+    }
+    .sitemap-links .title {
+        margin-bottom: 20px;
+    }
+    .sitemap-links .title h3 {
+        font-size: 32px;
+    }
+    .sitemap-links ul li a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {}
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        height: 100vh;
+    }
+    .ON-more-products-section .product-box {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {}
+
+@media only screen and (max-width: 768px) {
+    /*========================================================================================
+        Home Page Styles
+    ========================================================================================*/
+    .product-auth-verification-section .product-authentication-container {
+        padding: 40px 0;
+        width: 100%;
+    }
+    .product-auth-verification-section .product-authentication-container .product-auth-form {
+        width: 90%;
+        background: rgba(0, 0, 0, 0.95);
+    }
+    .product-auth-verification-section .product-authentication-container .product-auth-form form {
+        padding: 0 15px;
+    }
+    .product-auth-verification-section .product-verification-container {
+        width: 100%;
+    }
+    .product-auth-verification-section .product-verification-container .product-image {
+        position: relative;
+        left: -17px;
+        right: 0;
+        bottom: 0;
+        width: 550px;
+        margin: 80px auto 0;
+    }
+    .product-auth-verification-section .product-verification-container .verification-counter .title h3 {
+        font-size: 45px;
+    }
+    .product-verification-status-container {
+        width: 100%;
+    }
+    .product-verification-status-container .status-box .title h3 {
+        font-size: 30px;
+    }
+    .product-verification-status-container .status-box .title h1 {
+        font-size: 50px;
+        margin: 10px 0 20px;
+    }
+    .product-verification-status-container .status-box p {
+        margin-top: 50px;
+    }
+    .product-verification-status-container .status-box .color-box {
+        height: 260px;
+        margin-top: -200px;
+    }
+    /*========================================================================================
+        Product Main Slider Styles
+    ========================================================================================*/
+    .product-main-slider .owl-nav {
+        top: 100px;
+    }
+    .product-main-slider .owl-carousel .owl-nav button.owl-prev,
+    .product-main-slider .owl-carousel .owl-nav button.owl-next {
+        width: 40px;
+        height: 40px;
+    }
+    .owl-carousel .owl-nav button.owl-next span,
+    .owl-carousel .owl-nav button.owl-prev span {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box {
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .product-main-slider .main-slider .slide-item .ON-athletes-bg-image {
+        width: 100%;
+        min-height: 500px;
+    }
+    .product-main-slider .main-slider .slide-item .product-image {
+        display: none;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .mobile-product-image {
+        display: block;
+    }
+    .product-main-slider .main-slider .slide-item.product-whey .content-box .mobile-product-image {
+        left: 19px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .title a {
+        font-size: 26px;
+        line-height: 26px;
+        letter-spacing: 0;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .title a span {
+        display: block;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .title a span br {
+        display: none;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .btn-box {
+        margin-top: 10px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .btn-box .btn.btn-with-border {
+        font-size: 32px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .mobile-product-image img {
+        width: 250px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .title a {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .product-main-slider .main-slider .slide-item.product-bcaa-boost .content-box .text {
+        width: 100%;
+    }
+    .product-main-slider .owl-nav {
+        top: 250px;
+    }
+    .product-main-slider .owl-dots {
+        bottom: 20px;
+    }
+    /****************************************************/
+    /*   Our Specialty Section Styles     */
+    /****************************************************/
+    .on-story-page .our-specialty-section {
+        padding-bottom: 150px;
+    }
+    .on-story-page .our-specialty-section .row .col-sm-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .on-story-page .our-specialty-section .product-info-box h2.title {
+        font-size: 35px;
+    }
+    .on-story-page .our-specialty-section .product-info-box p.desc {
+        font-size: 22px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    /****************************************************/
+    /*    Product Marketing Styles     */
+    /****************************************************/
+    .on-story-page .product-marketing-section .product-image {
+        width: 400px;
+    }
+    .on-story-page .product-marketing-section .text-box {
+        width: 70%;
+    }
+    .on-story-page .product-marketing-section .text-box h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .on-story-page .product-marketing-section .text-box p {
+        font-size: 30px;
+    }
+    /****************************************************/
+    /*   Product Intro Section     */
+    /****************************************************/
+    .product-intro-section {
+        flex-flow: column;
+        text-align: center;
+    }
+    .product-intro-section .product-pack-shot {
+        position: relative;
+        width: 100%;
+    }
+    .product-intro-section .product-pack-shot .title-box {
+        padding-top: 50px;
+        padding-left: 0;
+    }
+    .product-intro-section .product-pack-shot .title-box h3 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font h3 {
+        font-size: 48px;
+    }
+    .product-intro-section .product-pack-shot .title-box h2 {
+        font-size: 60px;
+        line-height: 50px;
+        letter-spacing: -1px;
+    }
+    .product-intro-section .product-pack-shot .title-box h2.text-with-bg {
+        font-size: 52px;
+        line-height: 57px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font h2.text-with-bg {
+        font-size: 48px;
+        margin-bottom: 9px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font p.sub-text {
+        margin-top: 5px;
+        font-size: 21px;
+    }
+    .product-intro-section .product-pack-shot .product-image {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        margin-top: 50px;
+        text-align: c;
+    }
+    .product-intro-section .product-pack-shot .title-box p.sub-text {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .product-intro-section .ON-athletes-bg-image {
+        position: relative;
+        width: 100%;
+        min-height: 500px;
+    }
+    .product-intro-section .ON-athletes-bg-image .bg-image {
+        background-position: top;
+    }
+    .product-short-features-section {
+        padding: 15px 0;
+    }
+    .product-short-features-section .feature-text-box {
+        left: 0;
+        width: 100%;
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .product-short-features-section .bg-image {
+        background-position: left;
+    }
+    .product-WH-section {
+        padding: 0 30px;
+    }
+    .product-WH-section .product-info-box .title {
+        width: 50%;
+    }
+    .product-WH-section .product-info-box .product-tub {
+        width: 50%;
+        left: -90px;
+        top: -30px;
+    }
+    .product-WH-section .product-info-box .WH-box {
+        width: 100%;
+        text-align: center;
+        top: -60px;
+    }
+    .product-benefits-section .col-sm-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .product-benefits-section .image-box,
+    .product-benefits-section .video-box {
+        padding: 30px;
+        margin: 0;
+    }
+    /****************************************************/
+    /*    Whey Product Page Styles     */
+    /****************************************************/
+    .product-whey .product-intro-section .product-pack-shot .product-image {
+        right: 0px;
+        bottom: -16px;
+    }
+    .product-whey .product-intro-section .product-pack-shot .title-box h3 {
+        margin-bottom: 10px;
+    }
+    .product-whey .product-intro-section .product-pack-shot .product-image {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
+    .product-whey .product-intro-section .product-pack-shot .product-image {
+        background-position: top;
+    }
+    .product-whey .product-intro-section .product-pack-shot .product-image img {
+        width: 500px;
+        margin: 0 auto;
+    }
+    /****************************************************/
+    /*    GS Isolate Styles     */
+    /****************************************************/
+    .product-isolate .product-intro-section .product-pack-shot .title-box h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .product-isolate .product-intro-section .product-pack-shot .product-image {
+        text-align: center;
+    }
+    /****************************************************/
+    /*    Serious Mass Product Page Styles     */
+    /****************************************************/
+    .serious-mass .product-short-features-section .feature-text-box {
+        width: 100%;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .serious-mass .product-intro-section .product-pack-shot .product-image {
+        bottom: 30px;
+        text-align: center;
+    }
+    .serious-mass .product-description-section .product-image img {
+        width: 100%;
+    }
+    .serious-mass .product-ingredients-details ul li {
+        margin-right: 5px;
+    }
+    .serious-mass .product-ingredients-details .note-text p {
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .serious-mass .product-short-features-section {
+        padding: 15px 0;
+    }
+    .serious-mass .product-short-features-section .feature-text-box .text ul li {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .serious-mass .product-WH-section {
+        padding: 80px 30px 0;
+    }
+    .product-WH-section .product-info-box .title {
+        top: -50px;
+    }
+    /****************************************************/
+    /*    Amino Energy Product Page Styles     */
+    /****************************************************/
+    .product-amino-energy .product-intro-section .product-pack-shot .title-box h2.text-with-bg {
+        font-size: 52px;
+        line-height: 57px;
+    }
+    .product-amino-energy .product-intro-section .product-pack-shot .title-box h3 {
+        line-height: 48px;
+        font-size: 48px;
+    }
+    .product-amino-energy .product-intro-section .product-pack-shot .product-image {
+        width: 60%;
+        bottom: 0px;
+        right: 0px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box {
+        width: 100%;
+        left: 0;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box .title h2 {
+        font-size: 32px;
+        line-height: 33px;
+        padding-bottom: 15px;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box .text p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .product-amino-energy .product-description-section .product-description-box .title h2 span {
+        display: inline-block;
+        font-size: 36px;
+        line-height: 37px;
+    }
+    .product-amino-energy .product-description-section {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .product-amino-energy .product-description-section .product-image {
+        width: 100%;
+        right: 0;
+    }
+    .product-amino-energy .product-description-section .product-image img {
+        width: 100%;
+    }
+    .product-amino-energy .product-short-features-section {
+        padding: 0 0px 15px 0px;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box {
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .product-amino-energy .product-ingredients-details {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .product-amino-energy .product-ingredients-details ul li span.ingredient-name br {
+        display: block;
+    }
+    .product-amino-energy .product-short-features-section .bg-image {
+        background-position: -65px center;
+    }
+    .product-amino-energy .product-WH-section .product-info-box .title {
+        top: -10px;
+        left: 40px;
+    }
+    .product-amino-energy .product-WH-section .product-info-box .product-tub {
+        left: 0px;
+        overflow: hidden;
+    }
+    .product-amino-energy .product-WH-section .product-info-box .product-tub img {
+        width: 450px;
+    }
+    /*========================================================================================
+            BCAA Product Page Styles
+    ========================================================================================*/
+    .product-main-slider .main-slider .slide-item.product-bcaa-boost .content-box .text {
+        width: 100%;
+    }
+    .product-bcaa-boost .product-intro-section .ON-athletes-bg-image {
+        min-height: 600px;
+    }
+    .product-bcaa-boost .product-short-features-section .bg-image {
+        background-position: 0px center;
+    }
+    .product-bcaa-boost .product-intro-section .product-pack-shot .product-image {
+        text-align: center;
+        width: 60%;
+        margin: 30px auto 0;
+    }
+    .product-bcaa-boost .product-WH-section {
+        padding-top: 60px;
+    }
+    .product-WH-section .product-info-box .WH-box {
+        top: -30px;
+    }
+    .product-main-slider .main-slider .slide-item.hero-banner .banner-text h2 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .product-main-slider .main-slider .slide-item.hero-banner .banner-text p {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .article-page .article-container,
+    .recipe-page .article-container {
+        padding: 50px 40px;
+    }
+    .article-items .article-item {
+        width: 50%;
+    }
+    .article-items .article-item .article-thumb,
+    .recipe-page .article-container .article-items .article-item .article-thumb {
+        height: 140px;
+    }
+    .article-details-container {
+        padding: 0 35px;
+        margin-top: 0;
+    }
+    .site-map-page-content {
+        min-height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        height: 100vh;
+        overflow-y: scroll;
+        z-index: 9999;
+    }
+    .navbar-nav .nav-item:after {
+        display: none;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin-right: 0;
+        position: initial;
+    }
+    .navbar-nav .nav-item:hover .nav-link {
+        display: block;
+    }
+    .navbar-nav .nav-item .dropdown-toggle::after,
+    .navbar-nav .nav-item.show .dropdown-toggle::after {
+        background: #ece5c6 !important;
+        color: #000;
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .navbar-nav .nav-item.show .dropdown-toggle::after {
+        transform: rotate(-180deg);
+    }
+    .dropdown-menu {
+        padding: 0 !important;
+        background-color: transparent;
+        box-shadow: none;
+        transition: all 200ms linear;
+    }
+    .dropdown-toggle[aria-expanded="true"]+.dropdown-menu {}
+    .navbar-nav .nav-item .dropdown-menu {
+        height: 0;
+        transform: none;
+        transition: all 0.35s ease-in-out;
+        visibility: visible;
+        opacity: 0;
+    }
+    .navbar-nav .nav-item.show .dropdown-menu {
+        height: 100%;
+        opacity: 1;
+    }
+    .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        color: #fff !important;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .d-desktop {
+        display: none;
+    }
+    .d-mobile {
+        display: block;
+    }
+    .start-header {
+        padding: 10px 0;
+    }
+    .start-header.scroll-on .navbar-brand img,
+    .navbar-brand img {
+        width: 210px;
+    }
+    .navbar-nav .nav-item a.shop-now-btn {
+        background: transparent !important;
+        border: none;
+        color: #ece5c6 !important;
+        padding: 10px 0 !important;
+        margin-right: 0;
+    }
+    .navbar-nav .nav-item.languages {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .navbar-nav .nav-item.languages .dropdown-menu li.has-submenu .submenu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        background: #000;
+        right: auto;
+        left: 35px;
+        top: 0;
+        min-width: 150px;
+        opacity: 1;
+        visibility: visible;
+        transform: translate3d(0, 0px, 0);
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item.languages .dropdown-menu li.has-submenu:after {
+        display: none;
+    }
+    .navbar-nav .nav-item.languages .dropdown-menu .submenu li a {
+        display: block;
+        padding: 10px 20px;
+        font-size: 15px;
+        line-height: 18px;
+        font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+        color: #fff !important;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .page-content {
+        padding-top: 66px;
+    }
+    .sec-title {
+        padding: 20px 0;
+    }
+    .sec-title h2 {
+        font-size: 35px;
+    }
+    /*========================================================================================
+        Home Page Styles
+    ========================================================================================*/
+    .product-auth-verification-section .product-authentication-container {
+        padding: 40px 0;
+        width: 100%;
+    }
+    .product-auth-verification-section .product-authentication-container .product-auth-form {
+        width: 90%;
+        background: rgba(0, 0, 0, 0.95);
+    }
+    .product-auth-verification-section .product-authentication-container .product-auth-form form {
+        padding: 0 15px;
+    }
+    .product-auth-verification-section .product-verification-container {
+        width: 100%;
+    }
+    .product-auth-verification-section .product-verification-container .product-image {
+        position: relative;
+        left: -17px;
+        right: 0;
+        bottom: 0;
+        width: 350px;
+        margin: 80px auto 0;
+    }
+    .product-auth-verification-section .product-verification-container .verification-counter .title h3 {
+        font-size: 35px;
+    }
+    .product-auth-verification-section .product-verification-container .verification-counter .number {
+        font-size: 50px;
+    }
+    .product-verification-status-container {
+        width: 100%;
+    }
+    .product-verification-status-container .status-box .title h3 {
+        font-size: 30px;
+    }
+    .product-verification-status-container .status-box .title h1 {
+        font-size: 50px;
+        margin: 10px 0 20px;
+    }
+    .product-verification-status-container .status-box p {
+        margin-top: 50px;
+    }
+    .product-verification-status-container .status-box .color-box {
+        height: 260px;
+        margin-top: -200px;
+    }
+    .tips-container .tips-card {
+        margin-bottom: 30px;
+    }
+    .tips-container .tips-card .video-box .btn-overlay-box {
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .product-authentication-tips-section {
+        padding-bottom: 0;
+    }
+    .contact-us-section .contact-us-form form .btn-box .submit-btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .contact-us-section .contact-us-form .btn.btn-with-border {
+        font-size: 20px;
+    }
+    /*========================================================================================
+        Footer Styles
+    ========================================================================================*/
+    .footer .text-box p.copyright-text span {
+        display: block;
+        font-size: 18px;
+    }
+    .footer .text-box p.copyright-text span.separator {
+        display: none;
+    }
+    /*========================================================================================
+        product Page Common Styles
+    ========================================================================================*/
+    .product-ingredients-details ul li {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .product-ingredients-details ul li span.amount-of-ingredients {
+        font-size: 36px;
+    }
+    .product-ingredients-details ul li span.amount-of-ingredients span.sub-text {
+        font-size: 30px;
+    }
+    .product-intro-section {
+        flex-flow: column;
+        text-align: center;
+    }
+    .product-intro-section .product-pack-shot {
+        position: relative;
+        width: 100%;
+    }
+    .product-intro-section .product-pack-shot .title-box {
+        padding-top: 50px;
+        padding-left: 0;
+    }
+    .product-intro-section .product-pack-shot .title-box h3 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font h3 {
+        font-size: 48px;
+    }
+    .product-intro-section .product-pack-shot .title-box h2 {
+        font-size: 60px;
+        line-height: 50px;
+        letter-spacing: -1px;
+    }
+    .product-intro-section .product-pack-shot .title-box h2.text-with-bg {
+        font-size: 52px;
+        line-height: 57px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font h2.text-with-bg {
+        font-size: 48px;
+        margin-bottom: 9px;
+    }
+    .product-intro-section .product-pack-shot .title-box.medium-font p.sub-text {
+        margin-top: 5px;
+        font-size: 21px;
+    }
+    .product-intro-section .product-pack-shot .product-image {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        margin-top: 50px;
+    }
+    .product-intro-section .product-pack-shot .title-box p.sub-text {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .product-intro-section .ON-athletes-bg-image {
+        position: relative;
+        width: 100%;
+        min-height: 350px;
+    }
+    .product-short-features-section {
+        padding: 10px 0 20px;
+    }
+    .product-short-features-section .bg-image {
+        background-position: -150px center;
+    }
+    .product-short-features-section .feature-text-box {
+        width: 100%;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 15px;
+    }
+    .product-short-features-section .feature-text-box {
+        margin-top: 15px;
+    }
+    .product-short-features-section .feature-text-box .title h2 {
+        font-size: 32px;
+        line-height: 33px;
+        padding-bottom: 15px;
+    }
+    .product-short-features-section .feature-text-box .text p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .product-description-section {
+        flex-flow: column;
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .product-description-section .product-description-box {
+        padding-left: 0;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .product-description-section .product-description-box .title h2,
+    .product-description-section .product-description-box .title h1 {
+        font-size: 36px;
+        line-height: 37px;
+    }
+    .product-description-section .product-description-box .text-box {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .product-description-section .product-description-box .text-box h3 {
+        padding-top: 0;
+        font-size: 24px;
+    }
+    .product-description-section .product-image {
+        position: relative;
+        width: 100%;
+        top: 0;
+        right: 0;
+        order: -1;
+    }
+    .product-description-section .product-description-box .text-box p {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .product-description-section .product-image img {
+        width: 350px;
+    }
+    .product-ingredients-details {
+        position: relative;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .product-WH-section {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .product-WH-section-inner-content {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+    .product-WH-section .video-box .btn-overlay-box {
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+    }
+    .product-WH-section .WH-text-box {
+        position: relative;
+        padding-left: 0px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .product-WH-section .WH-text-box h3 {
+        font-size: 23px;
+    }
+    .product-WH-section .WH-text-box ul {
+        padding-left: 27px;
+    }
+    .product-WH-section .WH-text-box ul li {
+        position: relative;
+        color: #fff;
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 16px;
+    }
+    .product-WH-section .WH-text-box ul li:before {
+        font-size: 16px;
+        left: -27px;
+    }
+    .product-WH-section.has-title-box .title-box h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    /****************************************************/
+    /*    ON More Product Section Styles     */
+    /****************************************************/
+    .ON-more-products-section .sec-big-title {
+        padding: 25px 0px;
+    }
+    .ON-more-products-section .sec-big-title h1 {
+        font-size: 30px;
+    }
+    .ON-more-products-section .more-products-container {
+        flex-flow: column;
+    }
+    .ON-more-products-section .product-box {
+        width: 100%;
+    }
+    .ON-more-products-section .product-box .title a {
+        font-size: 30px;
+    }
+    .go-to-retailer {
+        background: #595959;
+    }
+    .go-to-retailer h1 {
+        font-size: 30px;
+    }
+    .go-to-retailer a.btn.btn-with-border {
+        font-size: 20px;
+        padding: 5px 25px;
+    }
+    /*========================================================================================
+        Product Main Slider Styles
+    ========================================================================================*/
+    .product-main-slider .owl-nav {
+        top: 100px;
+    }
+    .product-main-slider .owl-carousel .owl-nav button.owl-prev,
+    .product-main-slider .owl-carousel .owl-nav button.owl-next {
+        width: 40px;
+        height: 40px;
+    }
+    .owl-carousel .owl-nav button.owl-next span,
+    .owl-carousel .owl-nav button.owl-prev span {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box {
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .product-main-slider .main-slider .slide-item .ON-athletes-bg-image {
+        width: 100%;
+        min-height: 300px;
+    }
+    .product-main-slider .main-slider .slide-item .product-image {
+        display: none;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .mobile-product-image {
+        display: block;
+    }
+    .product-main-slider .main-slider .slide-item.product-whey .content-box .mobile-product-image {
+        left: 19px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .title a {
+        font-size: 26px;
+        line-height: 26px;
+        letter-spacing: 0;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .title a span {
+        display: block;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .btn-box {
+        margin-top: 10px;
+    }
+    .product-main-slider .main-slider .slide-item .content-box .text .btn-box .btn.btn-with-border {
+        font-size: 18px;
+    }
+    /*========================================================================================
+        Health Tips Section Styles
+    ========================================================================================*/
+    .health-tips-section {
+        padding: 40px 15px;
+    }
+    .health-tips-section .title {
+        margin-bottom: 40px;
+    }
+    .health-tips-section .title h2 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .health-tips-section .tips-card-container .tips-card {
+        margin: 0;
+        margin-bottom: 50px;
+        padding: 20px;
+        min-height: auto;
+    }
+    .health-tips-section .tips-card-container .tips-card::after {
+        top: auto;
+        bottom: -40px;
+        right: 0;
+        left: 0;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+        border-top: 40px solid #000;
+        border-bottom: 0;
+        width: 60px;
+        margin: 0 auto;
+        height: 0px;
+    }
+    .health-tips-section .tips-card-container .tips-card .step-box {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+    .health-tips-section .tips-card-container .tips-card .step-box h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .health-tips-section .tips-card-container .tips-card .step-box h4 {
+        font-size: 30px;
+    }
+    /*========================================================================================
+        Our Story Page Styles
+    ========================================================================================*/
+    .on-story-page .our-specialty-section {
+        padding: 70px 0px;
+    }
+    .icon-box,
+    .on-story-page .our-specialty-section .icon-box {
+        min-height: 150px;
+        margin-bottom: 15px;
+        padding: 30px 20px;
+    }
+    .icon-box h3 {
+        font-size: 24px;
+    }
+    .icon-box p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .icon-box .btn-box .btn.btn-with-border {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .on-story-page .product-video-section {
+        padding: 30px 5px;
+    }
+    .on-story-page .our-specialty-section .title,
+    .on-story-page .product-video-section .title,
+    .on-story-page .our-goal-section .title {
+        margin-bottom: 10px;
+    }
+    .on-story-page .our-specialty-section .title h2,
+    .on-story-page .product-video-section .title h2,
+    .on-story-page .our-goal-section .title h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .on-story-page .product-video-section .title h2 a {
+        text-decoration: underline;
+        display: inline-block;
+    }
+    .on-story-page .product-video-section .video-box .btn-overlay-box a.play-btn i {
+        font-size: 60px;
+    }
+    .on-story-page .our-goal-section {
+        padding: 30px 5px;
+    }
+    .on-story-page .product-marketing-section .product-image {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    .on-story-page .product-marketing-section {
+        padding: 15px;
+    }
+    .on-story-page .product-marketing-section .text-box h1 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .on-story-page .product-marketing-section .text-box {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .on-story-page .product-marketing-section .text-box h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .on-story-page .product-marketing-section .text-box p {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .on-story-page .video-section .video-box-container .video-box {
+        width: 100%;
+        min-height: auto;
+        padding: 30px 0;
+    }
+    .on-story-page .video-section .video-box-container .video-box .icon i {
+        font-size: 50px;
+    }
+    .on-story-page .video-section .video-box-container .video-box h3 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .on-story-page .video-section .video-box-container .video-box p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .retailer-page .welcome-text-section {
+        padding: 0;
+        min-height: 200px;
+    }
+    .retailer-page .welcome-text-section .title h2 {
+        font-size: 31px;
+        line-height: 33px;
+    }
+    .retailer-page .retailer-section {
+        padding: 50px 0;
+    }
+    .retailer-page .retailer-section .retailer-details-container .nav.nav-tabs.nav-tabs .nav-link {
+        font-size: 17px;
+        line-height: 21px;
+        width: 150px;
+        padding: 10px 0;
+    }
+    .retailer-page .retailer-section .retailer-details-container .nav.nav-tabs.nav-tabs .nav-link span {
+        display: block;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content {
+        margin-top: 30px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane.active::before {
+        position: absolute;
+        left: 60px;
+        right: 0;
+        top: -39px;
+        content: "";
+        text-align: center;
+        border: 20px solid transparent;
+        border-bottom-color: #fff;
+        width: 20px;
+        height: auto;
+        z-index: 1;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane.active:nth-child(2):before {
+        left: auto;
+        right: 60px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane {
+        padding: 15px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container .country-wise-retailers .country-name h2 {
+        font-size: 30px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container .country-wise-retailers .retailer-logo {
+        text-align: center;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container .country-wise-retailers .retailer-logo a {
+        width: 140px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .title h2 {
+        font-size: 27px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .title p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code .form-group .form-control {
+        height: 50px;
+        font-size: 20px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code .btn-box {
+        margin-top: 10px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code .btn-box .btn.submit-btn {
+        font-size: 24px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name {
+        position: relative;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name ul li {
+        margin-right: 7px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name ul li .btn {
+        overflow: hidden;
+        font-size: 21px;
+        width: 50px;
+        padding: 5px 0;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .col-sm-3 {
+        justify-content: left !important;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .get-direction {
+        margin-top: 10px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .get-direction .btn {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item {
+        margin-bottom: 10px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item:last-child {
+        margin-bottom: 0;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item h2 {
+        width: 100%;
+        font-family: inherit;
+        font-size: 18px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item h3 {
+        font-family: inherit;
+        font-size: 18px;
+    }
+    .retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item p {
+        font-family: "BlenderPro-Medium";
+        width: 30%;
+        margin-bottom: 0px;
+    }
+    .product-ingredients-details ul {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .product-ingredients-details ul li:last-child {
+        margin-right: 0;
+    }
+    .product-ingredients-details ul li span.amount-of-ingredients {
+        font-size: 26px;
+    }
+    .product-ingredients-details ul li span.amount-of-ingredients span.sub-text {
+        font-size: 20px;
+    }
+    .product-ingredients-details ul li span.ingredient-name {
+        margin-top: 5px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    /*========================================================================================
+            Product WH Section Styles
+    ========================================================================================*/
+    .product-WH-section .product-info-box {
+        flex-flow: column;
+    }
+    .product-WH-section .product-info-box .title,
+    .product-WH-section .product-info-box .product-tub,
+    .product-WH-section .product-info-box .WH-box {
+        width: 100%;
+    }
+    .product-WH-section .product-info-box .product-tub img {
+        position: relative;
+        width: 100%;
+        left: -10px;
+    }
+    .product-WH-section .product-info-box .WH-box .text-image img {
+        width: 100%;
+    }
+    .product-WH-section .product-info-box .title h1,
+    .product-WH-section .product-info-box .title h2.product-name {
+        font-size: 60px;
+    }
+    .product-WH-section .product-info-box .title h2.product-name {
+        left: 25px;
+    }
+    .product-WH-section .product-info-box .title h2.product-name:before {
+        left: -40px;
+    }
+    .product-WH-section .product-info-box .title p {
+        font-size: 45px;
+    }
+    .product-benefits-section {
+        padding: 30px 10px 0;
+    }
+    .product-benefits-section .image-box,
+    .product-benefits-section .video-box {
+        margin-bottom: 30px;
+    }
+    .product-amino-energy .product-WH-section .product-info-box .product-tub {
+        left: 0px;
+    }
+    .product-main-slider .main-slider .slide-item.hero-banner img.desktop-banner {
+        display: none;
+    }
+    .product-main-slider .main-slider .slide-item.hero-banner img.mobile-banner {
+        display: block;
+    }
+    /****************************************************/
+    /*    Whey Product Page Styles     */
+    /****************************************************/
+    .product-whey .product-intro-section .product-pack-shot .product-image {
+        right: 0px;
+        bottom: -16px;
+    }
+    .product-whey .product-intro-section .product-pack-shot .title-box h3 {
+        margin-bottom: 10px;
+    }
+    .product-whey .product-intro-section .product-pack-shot .product-image {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
+    .product-whey .product-intro-section .product-pack-shot .product-image img {
+        width: 350px;
+        margin: 0 auto;
+    }
+    /****************************************************/
+    /*    GS Isolate Styles     */
+    /****************************************************/
+    .product-isolate .product-intro-section .product-pack-shot .title-box h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    /****************************************************/
+    /*    Serious Mass Product Page Styles     */
+    /****************************************************/
+    .serious-mass .product-short-features-section .feature-text-box {
+        width: 100%;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .serious-mass .product-intro-section .product-pack-shot .product-image {
+        bottom: 30px;
+    }
+    .serious-mass .product-description-section .product-image img {
+        width: 100%;
+    }
+    .serious-mass .product-ingredients-details ul li {
+        margin-right: 5px;
+    }
+    .serious-mass .product-ingredients-details .note-text p {
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .serious-mass .product-short-features-section {
+        padding-top: inherit;
+        padding-bottom: inherit;
+    }
+    .serious-mass .product-short-features-section .feature-text-box .text ul li {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    /****************************************************/
+    /*    Amino Energy Product Page Styles     */
+    /****************************************************/
+    .product-amino-energy .product-intro-section .product-pack-shot .title-box h2.text-with-bg {
+        font-size: 52px;
+        line-height: 57px;
+    }
+    .product-amino-energy .product-intro-section .product-pack-shot .title-box h3 {
+        line-height: 48px;
+        font-size: 48px;
+    }
+    .product-amino-energy .product-intro-section .product-pack-shot .product-image {
+        width: 360px;
+        bottom: 0px;
+        /* right: -10px; */
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box {
+        width: 100%;
+        left: 0;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box .title h2 {
+        font-size: 32px;
+        line-height: 33px;
+        padding-bottom: 15px;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box .text p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .product-amino-energy .product-description-section .product-description-box .title h2 span {
+        display: inline-block;
+        font-size: 36px;
+        line-height: 37px;
+    }
+    .product-amino-energy .product-description-section {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .product-amino-energy .product-description-section .product-image {
+        width: 100%;
+        right: 0;
+    }
+    .product-amino-energy .product-description-section .product-image img {
+        width: 100%;
+    }
+    .product-amino-energy .product-short-features-section {
+        padding: 0 0px 15px 0px;
+    }
+    .product-amino-energy .product-short-features-section .feature-text-box {
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .product-amino-energy .product-ingredients-details {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .product-amino-energy .product-ingredients-details ul li span.ingredient-name br {
+        display: block;
+    }
+    .product-amino-energy .product-short-features-section .bg-image {
+        background-position: -65px center;
+    }
+    /*========================================================================================
+            BCAA Product Page Styles
+    ========================================================================================*/
+    .product-main-slider .main-slider .slide-item.product-bcaa-boost .content-box .text {
+        width: 100%;
+    }
+    .product-bcaa-boost .product-short-features-section .bg-image {
+        background-position: 0px center;
+    }
+    .product-bcaa-boost .product-intro-section .product-pack-shot .product-image {
+        width: 80%;
+    }
+    /*========================================================================================
+            Article Page Styles
+    ========================================================================================*/
+    .article-page {
+        padding: 0;
+        padding-top: 35px;
+    }
+    .article-page .article-container {
+        padding: 25px;
+    }
+    .article-page .filter-bar {
+        justify-content: space-between;
+        border-top: 1px solid #bfbfbf;
+        border-bottom: 1px solid #bfbfbf;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .article-items .article-item {
+        width: 100%;
+    }
+    .article-items .article-item .article-thumb {
+        height: 150px;
+    }
+    .article-page .filter-bar .watch-time-filter {
+        width: 50%;
+        display: block;
+        border-right: 1px solid #bfbfbf;
+    }
+    .article-page .filter-bar .watch-time-filter a.dropdown-toggle {
+        font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+        border: none;
+        display: block;
+        text-align: left;
+    }
+    .article-page .filter-bar .watch-time-filter a.dropdown-toggle::after {
+        position: relative;
+        top: 5px;
+        float: right;
+    }
+    .article-page .filter-bar .category-filter-btn {
+        width: 50%;
+        margin-left: 0;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+    }
+    .article-page .filter-bar .category-filter-btn .text {
+        font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+        margin-left: 15px;
+    }
+    .category-filter-container .filter-container-inner {
+        width: 100%;
+        height: 100vh;
+    }
+    .article-details-page {
+        padding-top: 10px;
+    }
+    .article-details-page .breadcrumb-container .breadcrumb .breadcrumb-item.active {
+        display: none;
+    }
+    .article-details-container {
+        margin-top: 0;
+    }
+    .article-details-container .article-big-thumb {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .article-details-container .article-title h2 {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    /*========================================================================================
+            Recipes Page Styles
+    ========================================================================================*/
+    .recipe-page {
+        padding: 0;
+        padding-top: 35px;
+    }
+    .recipe-page .article-container {
+        padding: 25px;
+    }
+    .recipe-page .filter-bar {
+        justify-content: space-between;
+        border-top: 1px solid #bfbfbf;
+        border-bottom: 1px solid #bfbfbf;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .recipe-items .article-item {
+        width: 100%;
+    }
+    .recipe-items .article-item .article-thumb {
+        height: 150px;
+    }
+    .recipe-page .filter-bar .watch-time-filter {
+        width: 50%;
+        display: block;
+        border-right: 1px solid #bfbfbf;
+    }
+    .recipe-page .filter-bar .watch-time-filter a.dropdown-toggle {
+        font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+        border: none;
+        display: block;
+        text-align: left;
+    }
+    .recipe-page .filter-bar .watch-time-filter a.dropdown-toggle::after {
+        position: relative;
+        top: 5px;
+        float: right;
+    }
+    .recipe-page .filter-bar .category-filter-btn {
+        width: 50%;
+        margin-left: 0;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+    }
+    .recipe-page .filter-bar .category-filter-btn .text {
+        font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+        margin-left: 15px;
+    }
+    .recipe-details-page {
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+    .recipe-details-page .recipe-text-container.desktop {
+        display: none;
+    }
+    .recipe-details-page .recipe-text-container.mobile {
+        display: block;
+        border-top: 0px;
+    }
+    .recipe-details-page .breadcrumb-container .breadcrumb .breadcrumb-item.active {
+        display: none;
+    }
+    .recipe-details-page .left-content .recipe-video {
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 20px;
+    }
+    .recipe-details-page .right-content .recipe-title h2 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .recipe-details-page .right-content {
+        margin-left: 0;
+    }
+    .recipe-details-page .right-content .nutritional-information {
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 15px;
+    }
+    .recipe-details-page .right-content .recipe-preparation .stat-value {
+        width: 35%;
+    }
+    .recipe-details-page .right-content .recipe-preparation .stat-value {
+        width: 65%;
+        margin-bottom: 10px;
+    }
+    .recipe-details-page .right-content .ingredients h3.title,
+    .recipe-details-page .recipe-text-container.mobile .title h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .recipe-details-page .right-content .recipe-preparation .stat-unit p {
+        margin-bottom: 5px;
+    }
+    .recipe-details-page .right-content .recipe-preparation .stat-unit::before {
+        width: 28px;
+    }
+    .sitemap-links {
+        text-align: center;
+    }
+    .contact-us-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .product-main-slider .main-slider .slide-item.hero-banner .banner-text {
+        width: 100%;
+    }
+    .product-main-slider .main-slider .slide-item.hero-banner .banner-text h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .product-main-slider .main-slider .slide-item.hero-banner .banner-text p {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .athletes-page {
+        padding: 0;
+        padding-top: 35px;
+    }
+    .athletes-page .article-container {
+        padding: 25px;
+    }
+    .athletes-page .page-title p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .athletes-page .article-items .article-item {
+        width: 100%;
+    }
+    .athletes-page .article-items .article-item .article-thumb {
+        height: 160px;
+    }
+    /*========================================================================================
+        Article Page Styles
+    ========================================================================================*/
+    .athlete-details-content .athlete-banner .athlete-intro {
+        position: relative;
+        background-color: #f6f6f6;
+        margin: -60px auto 0;
+        padding: 0;
+        width: 85%;
+    }
+    .athlete-details-content .athlete-banner .athlete-intro div {
+        width: 100%;
+        padding: 30px;
+    }
+    .athlete-details-content .left-content,
+    .athlete-details-content .right-content {
+        width: 100%;
+    }
+    .athlete-details-content .athlete-biography .right-content {
+        margin: 0;
+    }
+    .athlete-details-content .athlete-biography .owl-dots {
+        background-color: #f6f6f6;
+        width: 88%;
+        margin: -60px auto 0;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .athlete-details-content .athlete-biography .owl-dots .owl-dot span {
+        background-color: #bfbfbf;
+    }
+    .athlete-details-content .athlete-biography .owl-dots .owl-dot.active span {
+        background-color: #000;
+    }
+    .athlete-details-content .athlete-biography .text-box {
+        margin: 0px 20px;
+        padding: 30px;
+    }
+    .athlete-details-content .athlete-biography {
+        flex-flow: column;
+    }
+    .athlete-details-content .athlete-fav-product {
+        flex-flow: column;
+    }
+    .athlete-details-content .athlete-fav-product .right-content {
+        margin: 0;
+    }
+    .athlete-details-content .athlete-fav-product .text-box {
+        padding: 30px;
+        margin: -40px 26px 0;
+    }
+    .athlete-details-content .athlete-fav-recipe .col-sm-6:first-child {
+        padding-right: 15px;
+        order: 2;
+    }
+    .athlete-details-content .athlete-fav-recipe .col-sm-6:last-child {
+        padding-left: 15px;
+        order: 1;
+    }
+    .athlete-details-content .athlete-fav-recipe .text-box {
+        margin: -40px 20px 0;
+        z-index: 1;
+    }
+    .athlete-details-content .athlete-fav-recipe .text-box h2 {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .sustainability-page-content .commitment-text-box {
+        padding-top: 20px;
+    }
+    .sustainability-page-content .commitment-card-item {
+        padding: 40px 0px;
+    }
+    .sustainability-page-content .commitment-card-item .text-box {
+        margin-bottom: 20px;
+        padding: 20px;
+        min-height: initial;
+    }
+    .sustainability-page-content .commitment-card-item .text-box h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .sustainability-page-content .commitment-card-item .link-text-box {
+        padding-top: 30px;
+    }
+    .athlete-details-content .athlete-banner .athlete-intro h2,
+    .athlete-details-content .athlete-biography .text-box h2,
+    .athlete-details-content .athlete-fav-product .text-box h2 {
+        font-size: 32px;
+        line-height: 33px;
+    }
+    .athlete-details-content .athlete-banner .athlete-intro h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .athlete-details-content .athlete-banner .athlete-intro p,
+    .athlete-details-content .athlete-biography .text-box p,
+    .athlete-details-content .athlete-fav-product .text-box p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .athlete-details-content .athlete-biography .text-box a.btn,
+    .athlete-details-content .athlete-fav-product .text-box a.btn,
+    .athlete-details-content .athlete-fav-recipe .text-box a.btn {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width: 480px) {}

@@ -1,0 +1,204 @@
+/* Carousel styling remains the same */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  z-index: 799;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+}
+
+.hero-section {
+  min-width: 100%;
+  height: 520px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+}
+
+.hero-full-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-left {
+  width: 41.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px;
+}
+
+.hero-content {
+  padding: 60px 20px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  line-height: 1;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.hero-subtitle {
+  font-size: 3.5rem;
+  margin-top: 10px;
+  font-family: "BlenderPro-Book";
+}
+
+.product-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero-right {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Centered Product Image */
+.product-image {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  z-index: 1;
+  object-fit: contain;
+}
+
+.carousel-control {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-control:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease-in-out;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 800;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: white;
+}
+
+/* New Categories Section */
+.categories-section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 50px;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.category-card {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.category-image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.category-description {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.category-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.category-button:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,5052 @@
+/*
+
+Template Name: ON PROVEN
+Description:
+Author:
+Author URL:
+Version: 1.0
+
+
+==========================================================================================
+				  Sltyle Details
+==========================================================================================
+
+** Import Custom Fonts
+
+1. HTML Default Styles
+
+2. Bootstrap Overwrite Styles
+
+3. Header/Navigation Styles
+
+*/
+
+/*========================================================================================
+	Import Custom Fonts
+========================================================================================*/
+
+@font-face {
+    font-family: "BlenderPro-Thin";
+    src: url("../fonts/blenderpro/BlenderPro-Thin.otf");
+    src: url("../fonts/blenderpro/BlenderPro-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/blenderpro/BlenderPro-Thin.woff") format("woff"), url("../fonts/blenderpro/BlenderPro-Thin.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BlenderPro-Medium";
+    src: url("../fonts/blenderpro/BlenderPro-Medium.otf");
+    src: url("../fonts/blenderpro/BlenderPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/blenderpro/BlenderPro-Medium.woff") format("woff"), url("../fonts/blenderpro/BlenderPro-Medium.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BlenderPro-Book";
+    src: url("../fonts/blenderpro/BlenderPro-Book.otf");
+    src: url("../fonts/blenderpro/BlenderPro-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/blenderpro/BlenderPro-Book.woff") format("woff"), url("../fonts/blenderpro/BlenderPro-Book.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BlenderPro-Bold";
+    src: url("../fonts/blenderpro/BlenderPro-Bold.otf");
+    src: url("../fonts/blenderpro/BlenderPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/blenderpro/BlenderPro-Bold.woff") format("woff"), url("../fonts/blenderpro/BlenderPro-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BlenderPro-Heavy";
+    src: url("../fonts/blenderpro/BlenderPro-Bold.otf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*========================================================================================
+	1. HTML Default Styles
+========================================================================================*/
+
+body {
+    font-family: "BlenderPro-Book", "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+div,
+section {
+    position: relative;
+}
+
+b,
+strong {
+    font-family: "BlenderPro-Bold";
+}
+
+/*========================================================================================
+	2. Bootstrap Overwrite Styles
+========================================================================================*/
+
+.dropdown-toggle::after {
+    border: none;
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    content: "\f078";
+    vertical-align: baseline;
+    margin-left: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.breadcrumb-container {
+    position: relative;
+}
+
+.breadcrumb-container .breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-container .breadcrumb .breadcrumb-item {
+    font-size: 16px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.breadcrumb-container .breadcrumb .breadcrumb-item:first-child {
+    padding-left: 0;
+}
+
+.breadcrumb-container .breadcrumb .breadcrumb-item.active {}
+
+.breadcrumb-container .breadcrumb .breadcrumb-item a {
+    color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 600;
+    content: "\f054";
+    color: #fff;
+    padding-right: 20px;
+}
+
+.page-content.bg-white .breadcrumb-container .breadcrumb .breadcrumb-item,
+.page-content.bg-white .breadcrumb-container .breadcrumb .breadcrumb-item a,
+.page-content.bg-white .breadcrumb-item+.breadcrumb-item::before {
+    color: #000;
+}
+
+/*========================================================================================
+	3. Header/Navigation Styles
+========================================================================================*/
+
+.main-header {
+    position: relative;
+}
+
+.start-header {
+    opacity: 1;
+    /* transform: translateY(0); */
+    padding: 10px 0;
+    box-shadow: 0 1px 1px 0 rgba(138, 155, 165, 0.15);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.start-header.scroll-on {
+    box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+    padding: 10px 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.start-header.scroll-on .navbar-brand img {
+    width: 200px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #000;
+}
+
+/* .navigation-wrap .container{
+	max-width: 1300px;
+} */
+
+.navigation-wrap .nav-outer-box {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 200px;
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    float: right;
+    border: none;
+    padding-right: 0;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    width: 24px;
+    height: 17px;
+    background-image: none;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    transition: all 300ms linear;
+}
+
+.navbar-light .navbar-toggler-icon:after,
+.navbar-light .navbar-toggler-icon:before {
+    width: 24px;
+    position: absolute;
+    height: 1px;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 2;
+    transition: all 300ms linear;
+}
+
+.navbar-light .navbar-toggler-icon:after {
+    top: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+    transform: translateY(8px) rotate(-45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    transition: all 200ms linear;
+    padding-left: 4px;
+}
+
+.navbar-nav .nav-item:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: "";
+    background-color: #8167a9;
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.navbar-nav .nav-item:hover:after {
+    bottom: 0;
+    opacity: 0;
+}
+
+.navbar-nav .nav-item.active:hover:after {
+    opacity: 0;
+}
+
+.navbar-nav .nav-item.show .dropdown-toggle::after {
+    transform: rotate(-180deg);
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    transition: all 200ms linear;
+    padding: 5px 0 !important;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    color: #ece5c6 !important;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+    transform: translate3d(0, 10px, 0);
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    display: block;
+    padding: 0;
+    margin: 0;
+    transition: all 200ms linear;
+    border-radius: 0;
+    min-width: 200px;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    padding: 15px 20px;
+    font-size: 17px;
+    line-height: 17px;
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    color: #000 !important;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background: #9e8150 !important;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-item.show .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    max-height: 999px;
+    transform: translate3d(0, 0px, 0);
+}
+
+.navbar-nav .nav-item a.shop-now-btn {
+    color: #000 !important;
+    font-size: 18px;
+    line-height: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 0 !important;
+    padding: 10px 12px !important;
+    text-transform: uppercase;
+    background-color: #fff !important;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-item a.shop-now-btn:hover {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-item.languages {
+    position: relative;
+}
+
+.navbar-nav .nav-item.languages .nav-link.dropdown-toggle .text {
+    display: none;
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu {
+    background: #000;
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu .dropdown-item {
+    position: relative;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu .dropdown-item .flag-icon {
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu li.has-submenu {
+    position: relative;
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu li.has-submenu:after {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu li.has-submenu .submenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    background: #000;
+    right: 100%;
+    top: 0;
+    min-width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, 10px, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu li.has-submenu:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translate3d(0, 0px, 0);
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu .submenu li {
+    position: relative;
+}
+
+.navbar-nav .nav-item.languages .dropdown-menu .submenu li a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    color: #000 !important;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/*========================================================================================
+	Form Element Common Styles
+========================================================================================*/
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.checkbox {
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+.checkbox input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.checkbox label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+    line-height: 22px;
+    color: #000;
+}
+
+.checkbox label span.checkbox-icon {
+    content: "";
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #000;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    /*border-radius: 40px;*/
+    transition: 0.3s;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.checkbox input+label span.checkbox-icon:after {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: scale(0.5) rotate(45deg);
+    transition: all 0.35s cubic-bezier(0.3, -0.41, 0.19, 2), opacity 0.3s;
+}
+
+.checkbox input:checked+label span.checkbox-icon {
+    background-color: #000;
+}
+
+.checkbox input:checked+label span.checkbox-icon:after {
+    transform: scale(1) rotate(45deg);
+    opacity: 1;
+}
+
+.radio {}
+
+.radio input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.radio input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.radio label {
+    margin: 3px 0;
+    cursor: pointer;
+    position: relative;
+    padding-left: 29px;
+    line-height: 25px;
+    color: #171347;
+}
+
+.radio input[type="radio"]+label .radio-label {
+    content: "";
+    background: #fff;
+    border-radius: 100%;
+    border: 2px solid #b4b4b4;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin-right: 5px;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease;
+    background-color: #fff;
+    box-shadow: inset 0 0 0 8px #fff;
+    z-index: 100;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+.radio-label:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: transparent;
+    display: block;
+}
+
+.radio input[type="radio"]+label .radio-label:after {
+    background-color: #171347 !important;
+    content: "";
+    top: 3px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 4px;
+    transform: scale(0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.radio input[type="radio"]:checked+label .radio-label {
+    background-color: #171347;
+    border-color: #171347;
+    box-shadow: inset 0 0 0 3px #fff;
+}
+
+/*========================================================================================
+	Page Common Styles
+========================================================================================*/
+
+/* *********************************** */
+
+/*  HTML Tag Overwrite Styles  */
+
+/* *********************************** */
+
+a {
+    text-decoration: none !important;
+}
+
+.d-desktop {
+    display: block;
+}
+
+.d-mobile {
+    display: none;
+}
+
+/* *********************************** */
+
+/* Button Styles */
+
+/* *********************************** */
+
+.btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn.btn-with-border {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 25px;
+}
+
+.btn.btn-with-border:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* *********************************** */
+
+/* Page Styles */
+
+/* *********************************** */
+
+.page-wrapper {
+    position: relative;
+}
+
+.page-content {
+    position: relative;
+    padding-top: 64px;
+    background: #000;
+}
+
+/*========================================================================================
+	Global Re-usable Component Styles
+========================================================================================*/
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.bg-red {
+    background-color: #ae0c0c !important;
+}
+
+.text-red {
+    color: #ae0c0c !important;
+}
+
+.bg-green {
+    background-color: #188117 !important;
+}
+
+.text-green {
+    color: #188117 !important;
+}
+
+.bg-light-green {
+    background-color: #69a953 !important;
+}
+
+.text-light-green {
+    color: #69a953 !important;
+}
+
+.bg-purple {
+    background-color: #81278f !important;
+}
+
+.text-purple {
+    color: #81278f !important;
+}
+
+.bg-magenta {
+    background-color: #c91d67 !important;
+}
+
+.text-magenta {
+    color: #c91d67 !important;
+}
+
+.bg-dark-grey {
+    background-color: #404041 !important;
+}
+
+.text-dark-grey {
+    color: #404041 !important;
+}
+
+.bg-grey {
+    background-color: #595959 !important;
+}
+
+.text-grey {
+    color: #595959 !important;
+}
+
+.bg-yellow {
+    background-color: #9e8150 !important;
+}
+
+.text-yellow {
+    color: #9e8150 !important;
+}
+
+.bg-blue {
+    background-color: #005ca7 !important;
+}
+
+.text-blue {
+    color: #005ca7 !important;
+}
+
+.bg-light-blue {
+    background-color: #005aa3 !important;
+}
+
+.text-light-blue {
+    color: #005aa3 !important;
+}
+
+.bg-gradient-red {
+    background: rgba(172, 12, 12, 1);
+    background: -moz-linear-gradient( top, rgba(172, 12, 12, 1) 0%, rgba(108, 1, 4, 1) 100%) !important;
+    background: -webkit-gradient( left top, left bottom, color-stop(0%, rgba(172, 12, 12, 1)), color-stop(100%, rgba(108, 1, 4, 1))) !important;
+    background: -webkit-linear-gradient( top, rgba(172, 12, 12, 1) 0%, rgba(108, 1, 4, 1) 100%) !important;
+    background: -o-linear-gradient( top, rgba(172, 12, 12, 1) 0%, rgba(108, 1, 4, 1) 100%) !important;
+    background: -ms-linear-gradient( top, rgba(172, 12, 12, 1) 0%, rgba(108, 1, 4, 1) 100%) !important;
+    background: linear-gradient( to bottom, rgba(172, 12, 12, 1) 0%, rgba(108, 1, 4, 1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ac0c0c', endColorstr='#6c0104', GradientType=0) !important;
+}
+
+.bg-gradient-purple {
+    background: #762379 !important;
+    background: -moz-linear-gradient(left, #762379 0%, #6d4192 100%) !important;
+    background: -webkit-linear-gradient( left, #762379 0%, #6d4192 100%) !important;
+    background: linear-gradient(to right, #762379 0%, #6d4192 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#762379', endColorstr='#6d4192', GradientType=1) !important;
+}
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec-title {
+    position: relative;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.sec-title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sec-title h2 span {
+    font-family: "BlenderPro-Book", "Roboto", sans-serif;
+    color: #fff;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay.opacity-1 {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.overlay.opacity-2 {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.overlay.opacity-3 {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.overlay.opacity-4 {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.overlay.opacity-5 {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay.opacity-6 {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay.opacity-7 {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay.opacity-8 {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.overlay.opacity-9 {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.scrollToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    line-height: 55px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+/* *********************************** */
+
+/* Image Box Styles */
+
+/* *********************************** */
+
+.image-box {
+    position: relative;
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-box .thumb {
+    position: relative;
+}
+
+.image-box .thumb img {}
+
+.image-box .title {
+    text-align: center;
+}
+
+.image-box .title h4 {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* *********************************** */
+
+/* Video Box Styles */
+
+/* *********************************** */
+
+.video-box {
+    position: relative;
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.video-box .thumb {
+    position: relative;
+}
+
+.video-box .thumb img {}
+
+.video-box .btn-overlay-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.video-box:hover .btn-overlay-box {
+    opacity: 1;
+}
+
+.video-box .btn-overlay-box a.play-btn {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.video-box .btn-overlay-box a.play-btn i {
+    font-size: 80px;
+    color: #fff;
+}
+
+.video-box .title {
+    text-align: center;
+}
+
+.video-box .title h4 {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* *********************************** */
+
+/* Video Box Styles */
+
+/* *********************************** */
+
+.icon-box {
+    position: relative;
+    text-align: center;
+    background-color: #000;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin: 5px;
+    margin-bottom: 35px;
+}
+
+.icon-box .icon {
+    margin-bottom: 30px;
+}
+
+.icon-box .icon img {}
+
+.icon-box h3 {
+    color: #ffffff;
+    font-family: "BlenderPro-Bold";
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon-box p {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.icon-box .btn-box {
+    margin-top: 30px;
+}
+
+.icon-box .btn-box .btn.btn-with-border {
+    font-size: 22px;
+    font-family: "BlenderPro-Medium";
+    padding: 10px 30px;
+}
+
+/* *********************************** */
+
+/* OWL Carousel Styles */
+
+/* *********************************** */
+
+.owl-nav {
+    position: absolute;
+    top: 45%;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 0;
+    width: 55px;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+    font-size: 35px;
+    line-height: 55px;
+    color: #fff;
+}
+
+/*========================================================================================
+	Homepage Styles
+========================================================================================*/
+
+.home-page-content {
+    position: relative;
+}
+
+/*========================================================================================
+	Product Authentication and Verification Section Styles
+========================================================================================*/
+
+.product-auth-verification-section {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 600px;
+}
+
+.product-auth-verification-section .product-authentication-container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-auth-verification-section .product-authentication-container .bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form {
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form .title {
+    text-align: center;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form .title h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form .title p {
+    width: 70%;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin: 0 auto 30px;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form form {
+    padding: 0 30px;
+    margin-top: 30px;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form form .form-group {
+    margin-bottom: 20px;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form form .form-group.agreeWith {
+    margin-top: 30px;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form form .checkbox label {
+    color: #fff;
+    font-size: 18px;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form form .btn-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form form .btn-box .btn {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 25px;
+}
+
+.product-auth-verification-section .product-authentication-container .product-auth-form form .checkbox input+label span.checkbox-icon:after {
+    border-color: #fff;
+}
+
+.product-auth-verification-section .product-verification-container {
+    position: relative;
+    width: 50%;
+}
+
+.product-auth-verification-section .product-verification-container .bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-auth-verification-section .product-verification-container .verification-counter {
+    position: relative;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.product-auth-verification-section .product-verification-container .verification-counter .title {}
+
+.product-auth-verification-section .product-verification-container .verification-counter .title h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.product-auth-verification-section .product-verification-container .verification-counter .number {
+    font-family: "BlenderPro-Bold";
+    color: #fff;
+    font-size: 80px;
+    background: #fff;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.product-auth-verification-section .product-verification-container .product-image {
+    position: absolute;
+    left: 0;
+    right: 40px;
+    bottom: -80px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*========================================================================================
+	Product Verification Result Card Styles
+========================================================================================*/
+
+.product-verification-status-container {
+    position: relative;
+    background: #fff;
+    width: 50%;
+}
+
+.product-verification-status-container .status-box {
+    text-align: center;
+}
+
+.product-verification-status-container .status-box .title {
+    margin-top: 50px;
+}
+
+.product-verification-status-container .status-box .title h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.product-verification-status-container .status-box .title h1 {
+    font-family: "BlenderPro-Bold";
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.product-verification-status-container .status-box .icon {
+    z-index: 1;
+}
+
+.product-verification-status-container .status-box p {
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: "BlenderPro-Bold";
+    font-size: 25px;
+    color: #fff;
+}
+
+.product-verification-status-container .status-box .color-box {
+    background-color: #000;
+    height: 480px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -310px;
+}
+
+.product-verification-status-container .status-box.status-success .title h1 {
+    color: #6fc041;
+}
+
+.product-verification-status-container .status-box.status-success .color-box {
+    background-color: #6fc041;
+}
+
+.product-verification-status-container .status-box.status-failed .title h1 {
+    color: #ff3a32;
+}
+
+.product-verification-status-container .status-box.status-failed .color-box {
+    background-color: #ff3a32;
+}
+
+.product-verification-status-container .status-box.status-warning .title h1 {
+    color: #f7941d;
+}
+
+.product-verification-status-container .status-box.status-warning .color-box {
+    background-color: #f7941d;
+}
+
+/*========================================================================================
+	Product Authentication Tips Section Styles
+========================================================================================*/
+
+.product-authentication-tips-section {
+    position: relative;
+    padding: 40px 0 80px;
+}
+
+.product-authentication-tips-section .bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tips-container {
+    position: relative;
+    margin-top: 30px;
+}
+
+.tips-container .tips-card {
+    position: relative;
+}
+
+.tips-container .tips-card .title {
+    min-height: 45px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tips-container .tips-card .title h4 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.tips-container .tips-card .image-box,
+.tips-container .tips-card .video-box {
+    position: relative;
+    border: 1px solid #fff;
+}
+
+.tips-container .tips-card .video-box .btn-overlay-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.tips-container .tips-card:hover .video-box .btn-overlay-box {
+    opacity: 1;
+}
+
+.tips-container .tips-card .video-box .btn-overlay-box a.play-btn {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tips-container .tips-card .video-box .btn-overlay-box a.play-btn i {
+    font-size: 80px;
+    color: #fff;
+}
+
+/*========================================================================================
+	Contact Us Page Styles
+========================================================================================*/
+
+/****************************************************/
+
+/*    Contact Us Section Styles     */
+
+/****************************************************/
+
+.contact-us-section {
+    position: relative;
+    padding: 60px 0 80px;
+}
+
+.contact-us-section .contact-us-form {
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    /* border: 1px solid #fff; */
+}
+
+.contact-us-section .contact-us-form form .form-group label {
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-us-section .contact-us-form form .btn-box {
+    position: relative;
+}
+
+.contact-us-section .contact-us-form form .btn-box .submit-btn {
+    text-align: right;
+}
+
+/*========================================================================================
+	Footer Styles
+========================================================================================*/
+
+.footer {
+    position: relative;
+    background: #000;
+    text-align: center;
+    overflow: hidden;
+    padding: 40px 0 20px;
+}
+
+.footer .footer-links {}
+
+.footer .footer-links a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer .social-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.footer .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer .social-links li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer .social-links li a i {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.footer .social-links li:nth-child(1):hover a {
+    background: #0a7fec;
+    color: #fff;
+}
+
+.footer .social-links li:nth-child(2):hover a i:before {
+    background: #fff;
+    color: #ff0000;
+}
+
+.footer .social-links li:nth-child(3):hover a i:before {
+    color: #1da1f2;
+    background: -webkit-linear-gradient( 90deg, rgb(224, 155, 61) 0%, rgb(194, 25, 117) 35%, rgb(112, 36, 196) 100%);
+    background: linear-gradient( 90deg, rgb(224, 155, 61) 0%, rgb(194, 25, 117) 35%, rgb(112, 36, 196) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer .social-links li:nth-child(4):hover a i:before {
+    background: #fff;
+    color: #06c755;
+}
+
+.footer .text-box {
+    position: relative;
+    margin-top: 10px;
+}
+
+.footer .text-box p.copyright-text {
+    font-family: "BlenderPro-Thin", "Roboto", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer .text-box p.copyright-text span.separator {
+    margin: 0 10px;
+}
+
+.footer .text-box p.developBy-text {
+    font-family: "BlenderPro-Thin", "Roboto", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer .text-box p.developBy-text a img {}
+
+/*========================================================================================
+	Product Page Styles
+========================================================================================*/
+
+/***********************************************************
+/*	Product Page Common Component Styles */
+
+/**********************************************************/
+
+.product-page-content {
+    position: relative;
+}
+
+.product-ingredients-details {
+    position: absolute;
+    right: 10%;
+    bottom: -25%;
+    text-align: center;
+}
+
+.product-ingredients-details .note-text {
+    position: relative;
+}
+
+.product-ingredients-details .note-text p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.product-ingredients-details .note-text p sup {
+    font-size: 40px;
+    line-height: 20px;
+    top: 0;
+}
+
+.product-ingredients-details ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.product-ingredients-details ul li {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.product-ingredients-details ul li span.amount-of-ingredients {
+    display: block;
+    font-size: 60px;
+    font-family: "BlenderPro-Heavy";
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 26px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.product-ingredients-details ul li span.amount-of-ingredients span.sub-text {
+    font-size: 30px;
+}
+
+.product-ingredients-details ul li span.ingredient-name {
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "BlenderPro-Book";
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+/***********************************************************
+/*	Product Main Slider Styles */
+
+/**********************************************************/
+
+.product-main-slider {
+    position: relative;
+}
+
+.product-main-slider .main-slider {}
+
+.product-main-slider .main-slider .slide-item {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 530px;
+    overflow: hidden;
+}
+
+.product-main-slider .main-slider .slide-item .content-box {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.product-main-slider .main-slider .slide-item .product-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 350px;
+}
+
+.product-main-slider .main-slider .slide-item .product-image img {
+    display: initial;
+    width: 350px;
+}
+
+.product-main-slider .main-slider .slide-item .content-box .mobile-product-image {
+    display: none;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.product-main-slider .main-slider .slide-item .content-box .mobile-product-image img {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.product-main-slider .main-slider .slide-item .content-box .text {
+    position: relative;
+    width: 100%;
+}
+
+.product-main-slider .main-slider .slide-item .content-box .text .title {
+    margin-bottom: 12px;
+}
+
+.product-main-slider .main-slider .slide-item .content-box .text .title a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 58px;
+    line-height: 53px;
+    letter-spacing: 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.product-main-slider .main-slider .slide-item .content-box .text .title a span {
+    display: block;
+    font-family: "BlenderPro-Bold";
+}
+
+.product-main-slider .main-slider .slide-item .content-box .text p {
+    width: 75%;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.product-main-slider .main-slider .slide-item .content-box .text .btn-box {
+    margin-top: 30px;
+}
+
+.product-main-slider .main-slider .slide-item .content-box .text .btn-box .btn.btn-with-border {
+    font-size: 20px;
+}
+
+.product-main-slider .main-slider .slide-item .ON-athletes-bg-image {
+    width: 50%;
+}
+
+.product-main-slider .main-slider .slide-item.hero-banner {
+    position: relative;
+}
+
+.product-main-slider .main-slider .slide-item.hero-banner img.desktop-banner {
+    display: block;
+}
+
+.product-main-slider .main-slider .slide-item.hero-banner img.mobile-banner {
+    display: none;
+}
+
+.product-main-slider .main-slider .slide-item.hero-banner .banner-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.product-main-slider .main-slider .slide-item.hero-banner .banner-text h3 {
+    font-family: "BlenderPro-Bold";
+    font-size: 70px;
+    line-height: 65px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.product-main-slider .main-slider .slide-item.hero-banner .banner-text p {
+    font-size: 70px;
+    line-height: 65px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.product-main-slider .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    text-align: center;
+}
+
+.product-main-slider .owl-dots .owl-dot {}
+
+.product-main-slider .owl-dots .owl-dot span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.product-main-slider .owl-dots .owl-dot.active span {
+    background: rgba(255, 255, 255, 1);
+}
+
+.product-main-slider .owl-dots .owl-dot:last-child span {
+    margin-right: 0;
+}
+
+/****************************************************/
+
+/*    GS Whey Styles     */
+
+/****************************************************/
+
+.product-main-slider .main-slider .slide-item.product-whey .product-image {
+    right: -70px !important;
+}
+
+/* .product-main-slider .main-slider .slide-item.product-whey .content-box .text .title a span{
+	font-size: 50px;
+    line-height: 55px;
+} */
+
+/***********************************************************
+/* Intro Section Styles */
+
+/**********************************************************/
+
+.product-intro-section {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 600px;
+}
+
+.product-intro-section .product-pack-shot {
+    position: relative;
+    width: 50%;
+}
+
+.product-intro-section .product-pack-shot .title-box {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 164px;
+    z-index: 1;
+}
+
+.product-intro-section .product-pack-shot .title-box h3 {
+    /* font-family: 'BlenderPro-Bold'; */
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    /* letter-spacing: -5.25px; */
+    color: #fff;
+    margin: 0;
+}
+
+.product-intro-section .product-pack-shot .title-box h2 {
+    font-size: 60px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "BlenderPro-Bold";
+    margin: 0;
+    margin-top: 0px;
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.product-intro-section .product-pack-shot .title-box h2 span {
+    display: block;
+}
+
+.product-intro-section .product-pack-shot .title-box h2.text-with-bg {
+    background-color: #ffffff;
+    letter-spacing: -4px;
+    font-size: 82px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "BlenderPro-Bold";
+    margin: 0;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 1px 12px;
+    font-weight: normal;
+    line-height: 87px;
+    margin-bottom: 21px;
+}
+
+.product-intro-section .product-pack-shot .title-box p.sub-text {
+    font-size: 24px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "BlenderPro-Book";
+    margin: 0;
+    max-width: 400px;
+    text-transform: uppercase;
+}
+
+.product-intro-section .product-pack-shot .title-box.medium-font h3 {
+    font-family: "BlenderPro-Book";
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+
+.product-intro-section .product-pack-shot .title-box.medium-font h2.text-with-bg {
+    background-color: #ffffff;
+    letter-spacing: -4.1px;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "BlenderPro-Bold";
+    margin: 0;
+    display: inline-block;
+    padding: 4px 16px;
+    font-weight: normal;
+    line-height: 58px;
+    /* margin-bottom: 21px; */
+}
+
+.product-intro-section .product-pack-shot .title-box.medium-font p.sub-text {
+    font-size: 24px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "BlenderPro-Book";
+    margin: 0;
+    max-width: 400px;
+    text-transform: uppercase;
+}
+
+.product-intro-section .product-pack-shot .product-image {
+    overflow: hidden;
+    position: absolute;
+    bottom: 50px;
+    right: -30px;
+    width: 350px;
+    text-align: right;
+}
+
+.product-intro-section .title-box .btn-box {
+    position: relative;
+    margin-top: 30px;
+}
+
+.product-intro-section .title-box .btn-box .shop-now {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 22px;
+    color: #000 !important;
+    line-height: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 0 !important;
+    padding: 10px 12px !important;
+    text-transform: uppercase;
+    background-color: #fff !important;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.product-intro-section .ON-athletes-bg-image {
+    position: relative;
+    width: 50%;
+}
+
+/***********************************************************
+/* Product Short Features Section Styles */
+
+/**********************************************************/
+
+.product-short-features-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.product-short-features-section .feature-text-box {
+    position: relative;
+    width: 50%;
+    left: 45%;
+}
+
+.product-short-features-section .feature-text-box .title {}
+
+.product-short-features-section .feature-text-box .title h2 {
+    font-size: 52px;
+    color: #ffffff;
+    font-family: "BlenderPro-Book";
+    line-height: 57px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 38px;
+}
+
+.product-short-features-section .feature-text-box .title h2 span {
+    font-family: "BlenderPro-Bold";
+}
+
+.product-short-features-section .feature-text-box .text {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.product-short-features-section .feature-text-box .text h3 {
+    color: #ffffff;
+    font-family: "BlenderPro-Bold";
+    font-size: 42px;
+}
+
+.product-short-features-section .feature-text-box .text p {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0 0 35px 0;
+}
+
+.product-short-features-section .feature-text-box .text ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 35px;
+    list-style: none;
+}
+
+.product-short-features-section .feature-text-box .text ul li {
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    line-height: 36px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.product-short-features-section .feature-text-box .text ul li:before {
+    position: absolute;
+    left: -35px;
+    top: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f058";
+    font-size: 20px;
+}
+
+/***********************************************************
+/* Product Description Section Styles */
+
+/**********************************************************/
+
+.product-description-section {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.product-description-section .product-description-box {
+    position: relative;
+    padding-left: 50px;
+}
+
+.product-description-section .product-description-box .title {
+    position: relative;
+}
+
+.product-description-section .product-description-box .title h2 {
+    font-size: 64px;
+    color: #ffffff;
+    font-family: "BlenderPro-Book";
+    line-height: 70px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.product-description-section .product-description-box .title h2 span {
+    display: block;
+    font-size: 64px;
+    color: #ffffff;
+    font-family: "BlenderPro-Bold";
+    line-height: 70px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.product-description-section .product-description-box .title h1 {
+    font-size: 64px;
+    color: #ffffff;
+    font-family: "BlenderPro-Bold";
+    line-height: 70px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.product-description-section .product-description-box .text-box {
+    position: relative;
+    width: 55%;
+    margin-top: 30px;
+}
+
+.product-description-section .product-description-box .text-box h3 {
+    color: #ffffff;
+    font-family: "BlenderPro-Bold";
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.product-description-section .product-description-box .text-box p {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0 0 36px 0;
+}
+
+.product-description-section .product-image {
+    position: absolute;
+    width: 45%;
+    top: 26%;
+    right: 30px;
+}
+
+/***********************************************************
+/* Product 3W Section Styles */
+
+/**********************************************************/
+
+.product-WH-section {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.product-WH-section-inner-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.product-WH-section-inner-content:last-child {
+    margin-bottom: 0;
+}
+
+.product-WH-section .WH-text-box {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.product-WH-section-inner-content:last-child .WH-text-box {
+    margin-bottom: 0;
+}
+
+.product-WH-section .WH-text-box h3 {
+    color: #ffffff;
+    font-family: "BlenderPro-Bold";
+    font-size: 38px;
+    margin: -10px 0 0 0;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.product-WH-section .WH-text-box ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 35px;
+    list-style: none;
+}
+
+.product-WH-section .WH-text-box ul li {
+    position: relative;
+    color: #fff;
+    font-size: 28px;
+    line-height: 36px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.product-WH-section .WH-text-box ul li:before {
+    position: absolute;
+    left: -35px;
+    top: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f058";
+    font-size: 20px;
+}
+
+.product-WH-section.has-title-box.title-box {
+    position: relative;
+}
+
+.product-WH-section.has-title-box .title-box h1 {
+    margin: 0;
+    font-family: "BlenderPro-Heavy";
+    color: #fff;
+    font-size: 96px;
+    background: #fff;
+    display: inline-block;
+    line-height: 98px;
+    padding: 0 15px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.product-WH-section .product-info-box {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product-WH-section .product-info-box .title {
+    position: relative;
+    width: 20%;
+}
+
+.product-WH-section .product-info-box .title p.small-text {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.product-WH-section .product-info-box .title h1 {
+    font-family: "BlenderPro-Bold";
+    font-size: 70px;
+    line-height: 52px;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.product-WH-section .product-info-box .title h2.product-name {
+    position: relative;
+    left: 30px;
+    font-family: "BlenderPro-Bold";
+    font-size: 70px;
+    line-height: 52px;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.product-WH-section .product-info-box .title h2.product-name:before {
+    position: absolute;
+    left: -40px;
+    top: 26px;
+    content: "100%";
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 0px;
+    transform: rotate(-90deg);
+}
+
+.product-WH-section .product-info-box .title p {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.product-WH-section .product-info-box .product-tub {
+    position: relative;
+    width: 40%;
+    text-align: center;
+}
+
+.product-WH-section .product-info-box .product-tub img {
+    width: 450px;
+}
+
+.product-WH-section .product-info-box .WH-box {
+    position: relative;
+    text-align: right;
+    width: 40%;
+}
+
+.product-WH-section .product-info-box .WH-box .text-image {}
+
+.product-WH-section .product-info-box .WH-box .text-image img {
+    width: 480px;
+}
+
+/****************************************************/
+
+/*    Product Benefits Section Styles     */
+
+/****************************************************/
+
+.product-benefits-section {
+    position: relative;
+    padding: 50px;
+}
+
+.product-benefits-section .image-box,
+.product-benefits-section .video-box {
+    position: relative;
+    border: none;
+    margin: 10px;
+}
+
+.product-benefits-section .image-box .thumb,
+.product-benefits-section .video-box .thumb {}
+
+.product-benefits-section .image-box .text-box,
+.product-benefits-section .video-box .text-box {
+    padding: 20px 15px 10px;
+    background: #000;
+    min-height: 150px;
+    text-align: center;
+}
+
+.product-benefits-section .image-box .text-box h2,
+.product-benefits-section .video-box .text-box h2 {
+    font-family: "BlenderPro-Bold";
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.product-benefits-section .image-box .text-box p,
+.product-benefits-section .video-box .text-box p {
+    font-size: 25px;
+    line-height: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.product-benefits-section .image-box .text-box p.note-text,
+.product-benefits-section .video-box .text-box p.note-text {
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+/****************************************************/
+
+/*    Health Tips Section Styles     */
+
+/****************************************************/
+
+.health-tips-section {
+    position: relative;
+    background: #000;
+    padding: 50px;
+}
+
+.health-tips-section .title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.health-tips-section .title h2 {
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.health-tips-section .title h2 span {
+    font-family: "BlenderPro-Bold";
+}
+
+.health-tips-section .note-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.health-tips-section .note-text p {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.health-tips-section .tips-card-container {
+    position: relative;
+}
+
+.health-tips-section .tips-card-container .tips-card {
+    position: relative;
+    text-align: center;
+    min-height: 580px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #000;
+    padding: 35px;
+    margin: 10px;
+}
+
+.health-tips-section .tips-card-container .tips-card::after {
+    position: absolute;
+    top: 70px;
+    right: -35px;
+    content: "";
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 35px solid #000;
+}
+
+.health-tips-section .tips-card-container .tips-card.last-child:after {
+    display: none;
+}
+
+.health-tips-section .tips-card-container .tips-card .step-box {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #b4b4b4;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.health-tips-section .tips-card-container .tips-card .step-box h2 {
+    font-family: "BlenderPro-Bold";
+    font-size: 80px;
+    line-height: 60px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.health-tips-section .tips-card-container .tips-card .step-box h4 {
+    font-family: "BlenderPro-Bold";
+    font-size: 36px;
+    line-height: normal;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.health-tips-section .tips-card-container .tips-card .text-box {}
+
+.health-tips-section .tips-card-container .tips-card .text-box p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.health-tips-section .tips-card-container .tips-card .text-box p:last-child {
+    margin-bottom: 0;
+}
+
+/***********************************************************
+/* ON More Products Section Styles */
+
+/**********************************************************/
+
+.ON-more-products-section {
+    position: relative;
+}
+
+.ON-more-products-section .sec-big-title {
+    text-align: center;
+    background-color: #595959;
+    padding: 40px 0;
+}
+
+.ON-more-products-section .sec-big-title h3 {
+    font-family: "BlenderPro-Bold";
+    font-size: 52px;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.ON-more-products-section .more-products-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ON-more-products-section .product-box {
+    text-align: center;
+    width: 25%;
+    transition: all 0.3s ease-in-out;
+}
+
+.ON-more-products-section .product-box .product-image {
+    min-height: 380px;
+    padding: 60px 40px 0 40px;
+}
+
+.ON-more-products-section .product-box .product-image img {
+    width: 300px;
+}
+
+.ON-more-products-section .product-box .title {
+    width: 90%;
+    margin: 0 auto 40px;
+    min-height: 80px;
+}
+
+.ON-more-products-section .product-box .title a {
+    font-family: "BlenderPro-Bold";
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    min-height: 75px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.ON-more-products-section .product-box .overlay-btn-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.ON-more-products-section .product-box:hover .overlay-btn-box {
+    opacity: 1;
+}
+
+.ON-more-products-section .product-box .overlay-btn-box a {
+    font-family: "BlenderPro-Medium";
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 20px 20px;
+}
+
+/****************************************************/
+
+/*    GS Whey Styles     */
+
+/****************************************************/
+
+.product-whey .product-intro-section .product-pack-shot .product-image {
+    width: 400px;
+}
+
+/****************************************************/
+
+/*    GS Isolate Styles     */
+
+/****************************************************/
+
+.product-isolate .product-intro-section .product-pack-shot .title-box h2 {
+    font-size: 60px;
+    line-height: 50px;
+}
+
+/****************************************************/
+
+/*    Serious Mass Product Page Styles     */
+
+/****************************************************/
+
+.serious-mass .product-intro-section .product-pack-shot .title-box h2 {
+    font-size: 60px;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+
+.serious-mass .product-intro-section .product-pack-shot .title-box p.sub-text {
+    margin-top: 15px;
+}
+
+.serious-mass .product-description-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.serious-mass .product-short-features-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.serious-mass .product-short-features-section .feature-text-box {
+    width: 48%;
+    left: 44%;
+}
+
+.serious-mass .product-description-section .product-description-box .title h1 {
+    display: inline-block;
+    background: #fff;
+    color: #69a953;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.serious-mass .product-description-section .product-description-box .text-box {
+    width: 45%;
+}
+
+.serious-mass .product-description-section .product-description-box .text-box {
+    margin-top: 0;
+}
+
+.serious-mass .product-description-section .product-description-box .text-box p {
+    margin-bottom: 20px;
+}
+
+.serious-mass .product-description-section .product-image {
+    width: 55%;
+    right: 15px;
+}
+
+.serious-mass .product-ingredients-details {
+    right: -3%;
+}
+
+/****************************************************/
+
+/*    Amino Energy Product Page Styles     */
+
+/****************************************************/
+
+.product-amino-energy .product-intro-section .product-pack-shot .title-box p.sub-text {
+    margin-top: 10px;
+}
+
+.product-amino-energy .product-intro-section .product-pack-shot .product-image {
+    width: 360px;
+    bottom: 30px;
+    right: -50px;
+}
+
+.product-amino-energy .product-short-features-section .feature-text-box {
+    position: relative;
+    width: 51%;
+    left: 47%;
+}
+
+.product-amino-energy .product-description-section .product-description-box .title h2 span {
+    display: inline-block;
+}
+
+.product-amino-energy .product-description-section {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.product-amino-energy .product-description-section .product-image {
+    top: 15%;
+    width: 55%;
+    right: 0;
+}
+
+.product-amino-energy .product-ingredients-details {
+    position: absolute;
+    right: 13%;
+    bottom: -40%;
+    text-align: center;
+}
+
+.product-amino-energy .product-ingredients-details ul li span.ingredient-name br {
+    display: none;
+}
+
+.product-amino-energy .product-WH-section .product-info-box .product-tub {
+    left: 50px;
+}
+
+.product-amino-energy .product-benefits-section .image-box .text-box,
+.product-amino-energy .product-benefits-section .video-box .text-box {
+    min-height: 195px;
+}
+
+/*========================================================================================
+		BCAA Boost Product Styles
+========================================================================================*/
+
+.product-bcaa-boost .product-benefits-section .image-box .text-box {
+    min-height: 100px;
+}
+
+.product-bcaa-boost .product-intro-section .product-pack-shot .title-box h2 {
+    font-size: 55px;
+    letter-spacing: -1px;
+}
+
+.product-bcaa-boost .product-intro-section .product-pack-shot .product-image {
+    bottom: 0;
+}
+
+.product-main-slider .main-slider .slide-item.product-bcaa-boost .content-box .text {
+    width: 80%;
+}
+
+/***********************************************************/
+
+/* Go To The Retailer Page Styles */
+
+/**********************************************************/
+
+.go-to-retailer {
+    background: url(../images/backgrounds/produ_bg6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: #595959;
+    padding: 40px 0;
+}
+
+.go-to-retailer h3 {
+    font-family: "BlenderPro-Bold";
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.go-to-retailer a.btn.btn-with-border {
+    font-size: 22px;
+    padding: 5px 40px;
+}
+
+/*========================================================================================
+	ON Story Page Styles
+========================================================================================*/
+
+.on-story-page {
+    position: relative;
+}
+
+/****************************************************/
+
+/*   Our Specialty Section Styles     */
+
+/****************************************************/
+
+.on-story-page .our-specialty-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px 20px 200px 20px;
+}
+
+.on-story-page .our-specialty-section .icon-box {
+    min-height: 450px;
+}
+
+.on-story-page .our-specialty-section .icon-box:hover .btn-box .btn.btn-with-border {
+    background: #fff;
+    color: #000;
+}
+
+.on-story-page .our-specialty-section .title {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.on-story-page .our-specialty-section .title h1 {
+    font-family: "BlenderPro-Book";
+    font-size: 52px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.on-story-page .our-specialty-section .product-info-box {
+    position: relative;
+    text-align: center;
+    padding: 25px;
+}
+
+.on-story-page .our-specialty-section .product-info-box .thumb {
+    margin-bottom: 25px;
+}
+
+.on-story-page .our-specialty-section .product-info-box .thumb img {}
+
+.on-story-page .our-specialty-section .product-info-box h2.title {
+    font-family: "BlenderPro-Bold";
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.on-story-page .our-specialty-section .product-info-box p.desc {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    min-height: 40px;
+}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box {
+    margin-top: 40px;
+}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box a {
+    display: block;
+    border: 2px solid #fff;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box.dropdown.show a.dropdown-toggle,
+.on-story-page .our-specialty-section .product-info-box .btn-box a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box a.dropdown-toggle {}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box a.dropdown-toggle::after {}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box .dropdown-menu {
+    background-color: #fff;
+    padding: 0;
+    width: 100%;
+}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box .dropdown-menu li {}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box .dropdown-menu li a.dropdown-item {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.on-story-page .our-specialty-section .product-info-box .btn-box .dropdown-menu li a.dropdown-item:hover {
+    /* background: #231F20 !important; */
+    background: #9e8150 !important;
+    color: #fff !important;
+}
+
+/****************************************************/
+
+/*    Product Video Section Styles     */
+
+/****************************************************/
+
+.on-story-page .product-video-section {
+    padding: 90px 20px 90px 20px;
+}
+
+.on-story-page .product-video-section .title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.on-story-page .product-video-section .title h2 {
+    font-family: "BlenderPro-Book";
+    font-size: 52px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.on-story-page .product-video-section .title h2 a {
+    position: relative;
+    color: #fff;
+}
+
+.on-story-page .product-video-section .title h2 a::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.on-story-page .product-video-section .video-box .btn-overlay-box a.play-btn i {
+    font-size: 80px;
+}
+
+/****************************************************/
+
+/*    Our Goal Section Styles     */
+
+/****************************************************/
+
+.on-story-page .our-goal-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px 20px 90px 20px;
+}
+
+.on-story-page .our-goal-section .title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.on-story-page .our-goal-section .title h2 {
+    font-family: "BlenderPro-Book";
+    font-size: 52px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.on-story-page .our-goal-section .icon-box-container {}
+
+.on-story-page .our-goal-section .icon-box {}
+
+.on-story-page .our-goal-section .icon-box h3 {
+    font-size: 24px;
+}
+
+.on-story-page .our-goal-section .icon-box .btn-box {
+    margin-top: 10px;
+}
+
+.on-story-page .our-goal-section .icon-box:hover .btn-box .btn.btn-with-border {
+    background: #fff;
+    color: #000;
+}
+
+.on-story-page .our-goal-section .icon-box .btn-box .btn.btn-with-border {
+    width: 220px;
+}
+
+/****************************************************/
+
+/*    Product Marketing Styles     */
+
+/****************************************************/
+
+.on-story-page .product-marketing-section {
+    padding: 20px 20px;
+}
+
+.on-story-page .product-marketing-section .text-box {}
+
+.on-story-page .product-marketing-section .text-box h1 {
+    font-family: "BlenderPro-Bold";
+    font-size: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* .on-story-page .product-marketing-section .text-box h2 {
+	font-family: 'BlenderPro-Medium';
+	font-size: 36px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+} */
+
+.on-story-page .product-marketing-section .text-box h2 {
+    font-family: "BlenderPro-Book";
+    font-size: 38px;
+    line-height: 42px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.on-story-page .product-marketing-section .text-box p {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.on-story-page .product-marketing-section .product-image {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    width: 500px;
+}
+
+/****************************************************/
+
+/*    Video Section Styles     */
+
+/****************************************************/
+
+.on-story-page .video-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.on-story-page .video-section .video-box-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.on-story-page .video-section .video-box-container .video-box {
+    position: relative;
+    width: 50%;
+    border: none;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.on-story-page .video-section .video-box-container .video-box a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.on-story-page .video-section .video-box-container .video-box .icon {}
+
+.on-story-page .video-section .video-box-container .video-box .icon i {
+    font-size: 80px;
+    opacity: 0.6;
+}
+
+.on-story-page .video-section .video-box-container .video-box h3 {
+    font-family: "BlenderPro-Bold";
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.on-story-page .video-section .video-box-container .video-box p {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 0;
+}
+
+/*========================================================================================
+	Retailer Page Styles
+========================================================================================*/
+
+.retailer-page {
+    position: relative;
+}
+
+/****************************************************/
+
+/*    Welcome Section Styles     */
+
+/****************************************************/
+
+.retailer-page .welcome-text-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    min-height: 345px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.retailer-page .welcome-text-section .title {
+    text-align: center;
+}
+
+.retailer-page .welcome-text-section .title h2 {
+    font-family: "BlenderPro-Bold";
+    font-size: 65px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+/****************************************************/
+
+/*    Retailer Section Styles     */
+
+/****************************************************/
+
+.retailer-page .retailer-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container {}
+
+.retailer-page .retailer-section .retailer-details-container .nav.nav-tabs {
+    border-bottom: 0px;
+    justify-content: center;
+}
+
+.retailer-page .retailer-section .retailer-details-container .nav.nav-tabs.nav-tabs .nav-link {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border: none;
+    border-width: 0px;
+    border-radius: 0px;
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    z-index: 2;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.retailer-page .retailer-section .retailer-details-container .nav.nav-tabs.nav-tabs .nav-link span {
+    position: relative;
+    z-index: 2;
+}
+
+.retailer-page .retailer-section .retailer-details-container .nav.nav-tabs.nav-tabs .nav-link:last-child {
+    margin-right: 0;
+}
+
+/* .retailer-page .retailer-section .retailer-details-container .nav.nav-tabs.nav-tabs .nav-link::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: '';
+	width: 100%;
+	height: 100%;
+	border: 2px solid rgba(255, 255, 255, 0.7);
+	transform: skew(-25deg);
+} */
+
+.retailer-page .retailer-section .retailer-details-container .nav.nav-tabs.nav-tabs .nav-link.active {
+    background: transparent;
+    color: #fff;
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    background: #9e8150 !important;
+    border: 2px solid #9e8150 !important;
+}
+
+.retailer-page .retailer-section .retailer-details-container .nav.nav-tabs.nav-tabs .nav-link.active::before {
+    border-color: #fff;
+    background: #fff;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content {
+    position: relative;
+    margin-top: 50px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane {
+    background: #fff;
+    padding: 50px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane.active {}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane.active::before {
+    position: absolute;
+    left: 360px;
+    right: 0;
+    top: -60px;
+    content: "";
+    text-align: center;
+    border: 30px solid transparent;
+    border-bottom-color: #fff;
+    width: 30px;
+    height: 40px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane.active:nth-child(2):before {
+    left: auto;
+    right: 360px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container {
+    position: relative;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container .country-wise-retailers {
+    margin-bottom: 30px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container .country-wise-retailers .country-name h2 {
+    font-family: "BlenderPro-Heavy";
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    font-size: 50px;
+    color: #03b2f5;
+    margin-bottom: 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container .country-wise-retailers .retailer-logo {
+    position: relative;
+    margin: 0 -10px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container .country-wise-retailers .retailer-logo a {
+    display: inline-block;
+    width: 183px;
+    border: 1px solid #ebebeb;
+    margin: 10px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .online-retailers-container .country-wise-retailers .retailer-logo a .logo {}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container {
+    position: relative;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .title {
+    text-align: center;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .title h2 {
+    font-family: "BlenderPro-Heavy";
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    font-size: 50px;
+    color: #231f20;
+    margin-bottom: 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .title p {
+    font-family: "BlenderPro-Medium";
+    font-size: 24px;
+    color: #353434;
+    line-height: 30px;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code {
+    position: relative;
+    margin-top: 50px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code .form-group {}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code .form-group .form-control {
+    font-family: "BlenderPro-Medium";
+    font-size: 24px;
+    color: #353434;
+    border-color: #b2b2b2;
+    padding: 16px 20px 14px;
+    height: 60px;
+    border-radius: 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code .btn-box {
+    text-align: center;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code .btn-box .btn.submit-btn {
+    display: block;
+    font-family: "BlenderPro-Bold";
+    font-size: 30px;
+    color: #231f20;
+    background-color: transparent;
+    border: 2px solid #231f20;
+    width: 100%;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-post-code .btn-box .btn.submit-btn:hover {
+    background: #231f20;
+    color: #ece5c6 !important;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name ul li {
+    display: inline-block;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name ul li .btn {
+    font-family: "BlenderPro-Bold";
+    font-size: 30px;
+    font-style: italic;
+    color: #6e6c6d;
+    background-color: #ececec;
+    width: 120px;
+    border-radius: 0px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name ul li:last-child .btn {
+    margin-right: 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .search-by-country-name ul li .btn.active {
+    background-color: #03b2f5;
+    color: #fff;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details {
+    position: relative;
+    margin-top: 50px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info {
+    margin-bottom: 50px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item h2 {
+    font-family: "BlenderPro-Medium";
+    font-size: 20px;
+    width: 82%;
+    margin-bottom: 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item h3 {
+    width: 82%;
+    font-family: "BlenderPro-Medium";
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item p {
+    width: 15%;
+    font-size: 20px;
+    color: #353434;
+    margin-bottom: 0;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .item span.separator {
+    width: 3%;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .get-direction {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .get-direction .btn {
+    font-family: "BlenderPro-Bold";
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #231f20;
+    color: #231f20;
+    border-radius: 0px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .get-direction .btn:hover {
+    background: #9e8150 !important;
+    border-color: #9e8150 !important;
+    color: #fff;
+}
+
+.retailer-page .retailer-section .retailer-details-container .tab-content .tab-pane .local-retailers-container .retailer-shop-details .shop-info .get-direction .btn i {
+    margin-right: 10px;
+}
+
+/*========================================================================================
+        Article Page Styles
+========================================================================================*/
+
+.article-page {
+    position: relative;
+    padding: 60px;
+    padding-top: 30px;
+}
+
+.article-page .breadcrumb-container .breadcrumb {
+    padding: 0;
+}
+
+.article-page .page-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.article-page .page-title:after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #b59461;
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 35px);
+}
+
+.article-page .page-title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.article-page .filter-bar {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.article-page .filter-bar .watch-time-filter {
+    min-width: 100px;
+}
+
+.article-page .filter-bar .watch-time-filter .dropdown.show a.dropdown-toggle,
+.article-page .filter-bar .watch-time-filter a:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.article-page .filter-bar .watch-time-filter a.dropdown-toggle {
+    border: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.article-page .filter-bar .watch-time-filter a.dropdown-toggle::after {}
+
+.article-page .filter-bar .watch-time-filter .dropdown-menu {
+    background-color: #fff;
+    padding: 0;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.article-page .filter-bar .watch-time-filter .dropdown-menu .dropdown-header {
+    font-size: 18px;
+    color: #000;
+    padding-left: 15px;
+    padding-bottom: 0px;
+}
+
+.article-page .filter-bar .watch-time-filter .dropdown-menu a.dropdown-item {
+    font-size: 16px;
+    color: #000;
+}
+
+.article-page .filter-bar .watch-time-filter .dropdown-menu.show a.dropdown-item:hover {
+    /* background: #231F20 !important; */
+    background-color: #9e8150 !important;
+    color: #fff !important;
+}
+
+.article-page .filter-bar .category-filter-btn {
+    margin-left: 30px;
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.article-page .filter-bar .filter-icon {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 16px;
+    width: 17px;
+    margin-right: 14px;
+}
+
+.article-page .filter-bar .category-filter-btn .filter-icon .line {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+    transition: all 0.15s;
+}
+
+.article-page .filter-bar .category-filter-btn .filter-icon .line:after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 4px;
+    width: 4px;
+    transition: all 0.15s;
+}
+
+.article-page .filter-bar .category-filter-btn .filter-icon .line:nth-child(2):after {
+    right: 2px;
+}
+
+.article-page .filter-bar .category-filter-btn .filter-icon .line:nth-child(3):after {
+    left: 6px;
+}
+
+.article-page .filter-bar .category-filter-btn .text {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.article-page .article-container {
+    position: relative;
+    background: #1a1a1a;
+    padding: 50px 70px;
+}
+
+.article-page .article-container .number-of-articles p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/*========================================================================================
+        Article Card Styles
+========================================================================================*/
+
+.article-items {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.article-items .article-item {
+    position: relative;
+    width: 33.33%;
+    padding: 20px;
+}
+
+.article-items .article-item a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+}
+
+.article-items .article-item .article-thumb {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.article-items .article-item .article-thumb .thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.article-items .article-item .article-meta {
+    position: relative;
+    margin-top: 15px;
+}
+
+.article-items .article-item .article-meta ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.article-items .article-item .article-meta ul li {
+    display: inline-block;
+}
+
+.article-items .article-item .article-meta .category {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 1px 10px;
+    margin-right: 15px;
+}
+
+.article-items .article-item .article-meta .category.cat-fitness {
+    background-color: #ccef40;
+    color: #000;
+}
+
+.article-items .article-item .article-meta .category.cat-nutrition {
+    background-color: #8de6bc;
+    color: #000;
+}
+
+.article-items .article-item .article-meta .category.cat-supplements {
+    background-color: #1c736a;
+    color: #fff;
+}
+
+.article-items .article-item .article-meta .reading-time {
+    position: relative;
+}
+
+.article-items .article-item .article-meta .reading-time span.text {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 27px;
+}
+
+.article-items .article-item .article-meta .reading-time span.text::before {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../images/icons/on-clock-white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.article-items .article-item .article-title {
+    margin-top: 15px;
+}
+
+.article-items .article-item .article-title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.article-page .article-container .btn-box {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.article-page .article-container .btn-box .text {}
+
+.article-page .article-container .btn-box .text p {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.article-page .article-container .btn-box .text p span {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 26px;
+}
+
+.article-page .article-container .btn-box .btn.load-more {
+    border: 2px solid #fff;
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    padding: 15px 50px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.category-filter-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: flex-end;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.category-filter-container.show {
+    opacity: 1;
+    visibility: visible;
+    transition: background-color 0.2s ease-out;
+}
+
+.category-filter-container .filter-container-inner {
+    position: relative;
+    background-color: #fff;
+    padding: 20px 40px;
+    transform: translateX(100%);
+    transition: transform 0.2s ease-out;
+    width: 350px;
+}
+
+.category-filter-container .filter-container-inner.open {
+    transform: translateX(0%);
+    transition: transform 0.2s ease-in;
+}
+
+.category-filter-container .filter-container-inner .filter-widget {
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.category-filter-container .filter-container-inner .filter-widget:last-child {
+    border-bottom: 0px;
+}
+
+.category-filter-container .filter-container-inner .filter-widget .widget-title {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.category-filter-container .filter-container-inner .close-filter {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-filter-container .filter-container-inner .close-filter .text {}
+
+.category-filter-container .filter-container-inner .close-filter .text h4 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.category-filter-container .filter-container-inner .close-filter .btn-box {}
+
+.category-filter-container .filter-container-inner .close-filter .btn-box span.btn {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 2px 20px;
+    text-transform: uppercase;
+}
+
+.category-filter-container .filter-container-inner .selected-tags {
+    position: relative;
+}
+
+.category-filter-container .filter-container-inner .selected-tags .tags {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.category-filter-container .filter-container-inner .selected-tags .tags .icons {
+    cursor: pointer;
+}
+
+.category-filter-container .filter-container-inner .selected-tags .tags .icons img {
+    width: 12px;
+}
+
+.category-filter-container .filter-container-inner .selected-tags .tags .text {
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 10px;
+}
+
+.category-filter-container .filter-container-inner .filter-widget .collapse-item {
+    position: relative;
+}
+
+.category-filter-container .filter-container-inner .filter-widget .collapse-item .title {
+    position: relative;
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: -1px;
+    color: #000;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.category-filter-container .filter-container-inner .filter-widget .collapse-item .title:hover {
+    color: #000;
+}
+
+.category-filter-container .filter-container-inner .filter-widget .collapse-item .title:before {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    border: none;
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    content: "\f078";
+    vertical-align: baseline;
+    margin-left: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-filter-container .filter-container-inner .filter-widget .collapse-item .title.collapsed:before {
+    transform: rotate(-180deg);
+}
+
+.category-filter-container .filter-container-inner .filter-widget .collapse-item .checkbox {
+    padding-bottom: 0;
+}
+
+.category-filter-container .filter-container-inner .filter-widget .collapse-item .checkbox label {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.category-filter-container .filter-container-inner .filter-widget .collapse-item .checkbox:last-child label {
+    margin-bottom: 0;
+}
+
+.category-filter-container .filter-container-inner .result-reset-bar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.category-filter-container .filter-container-inner .result-reset-bar .result-box {
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    background: #000;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.category-filter-container .filter-container-inner .result-reset-bar .result-box p {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -1px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.category-filter-container .filter-container-inner .result-reset-bar .reset-filter-box {
+    margin-bottom: 10px;
+}
+
+.category-filter-container .filter-container-inner .result-reset-bar .reset-filter-box p {
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    color: #000;
+    margin-bottom: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.category-filter-container .filter-container-inner .result-reset-bar .reset-filter-box p::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+
+/*========================================================================================
+        Article Detais Page Styles
+========================================================================================*/
+
+.article-details-page {
+    padding: 60px 0;
+}
+
+.article-details-container {
+    max-width: 880px;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.article-details-container .article-big-thumb {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.article-details-container .publish-date {}
+
+.article-details-container .publish-date p {
+    font-size: 22px;
+    color: #ece5c6 !important;
+    margin-bottom: 0;
+}
+
+.article-details-container .article-title {
+    position: relative;
+}
+
+.article-details-container .article-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 59px;
+    height: 4px;
+    background-color: #b59461;
+}
+
+.article-details-container .article-title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.article-details-container .article-meta {
+    position: relative;
+    margin-top: 15px;
+}
+
+.article-details-container .article-meta ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.article-details-container .article-meta ul li {
+    display: inline-block;
+}
+
+.article-details-container .article-meta .category {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 1px 10px;
+    margin-right: 15px;
+}
+
+.article-details-container .article-meta .category.cat-fitness {
+    background-color: #ccef40;
+    color: #000;
+}
+
+.article-details-container .article-meta .category.cat-nutrition {
+    background-color: #8de6bc;
+    color: #000;
+}
+
+.article-details-container .article-meta .category.cat-supplements {
+    background-color: #1c736a;
+    color: #fff;
+}
+
+.article-details-container .article-meta .reading-time {
+    position: relative;
+}
+
+.article-details-container .article-meta .reading-time span.text {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 40px;
+    display: flex;
+    align-items: baseline;
+    top: 2px;
+}
+
+.article-details-container .article-meta .reading-time span.text span.number {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+.article-details-container .article-meta .reading-time span.text::before {
+    position: absolute;
+    left: 0;
+    top: -3px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url(../images/icons/on-clock-white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.article-details-container .article-text-container {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.article-details-container .article-text-container p {}
+
+/*========================================================================================
+        Recipe Page Styles
+========================================================================================*/
+
+.recipe-page {
+    position: relative;
+    padding: 60px;
+    padding-top: 30px;
+}
+
+.recipe-page .breadcrumb-container .breadcrumb {
+    padding: 0;
+}
+
+.recipe-page .page-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.recipe-page .page-title:after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #b59461;
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 35px);
+}
+
+.recipe-page .page-title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.recipe-page .filter-bar {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.recipe-page .filter-bar .watch-time-filter {
+    min-width: 100px;
+}
+
+.recipe-page .filter-bar .watch-time-filter .dropdown.show a.dropdown-toggle,
+.recipe-page .filter-bar .watch-time-filter a:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.recipe-page .filter-bar .watch-time-filter a.dropdown-toggle {
+    border: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.recipe-page .filter-bar .watch-time-filter a.dropdown-toggle::after {}
+
+.recipe-page .filter-bar .watch-time-filter .dropdown-menu {
+    background-color: #fff;
+    padding: 0;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.recipe-page .filter-bar .watch-time-filter .dropdown-menu .dropdown-header {
+    font-size: 18px;
+    color: #000;
+    padding-left: 15px;
+    padding-bottom: 0px;
+}
+
+.recipe-page .filter-bar .watch-time-filter .dropdown-menu a.dropdown-item {
+    font-size: 16px;
+    color: #000;
+}
+
+.recipe-page .filter-bar .watch-time-filter .dropdown-menu.show a.dropdown-item:hover {
+    /* background: #231F20 !important; */
+    background-color: #9e8150 !important;
+    color: #fff !important;
+}
+
+.recipe-page .filter-bar .category-filter-btn {
+    margin-left: 30px;
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.recipe-page .filter-bar .filter-icon {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 16px;
+    width: 17px;
+    margin-right: 14px;
+}
+
+.recipe-page .filter-bar .category-filter-btn .filter-icon .line {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+    transition: all 0.15s;
+}
+
+.recipe-page .filter-bar .category-filter-btn .filter-icon .line:after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 4px;
+    width: 4px;
+    transition: all 0.15s;
+}
+
+.recipe-page .filter-bar .category-filter-btn .filter-icon .line:nth-child(2):after {
+    right: 2px;
+}
+
+.recipe-page .filter-bar .category-filter-btn .filter-icon .line:nth-child(3):after {
+    left: 6px;
+}
+
+.recipe-page .filter-bar .category-filter-btn .text {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.recipe-page .article-container {
+    position: relative;
+    background: #1a1a1a;
+    padding: 50px 70px;
+}
+
+.recipe-page .article-container .number-of-articles {}
+
+.recipe-page .article-container .number-of-articles p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.recipe-page .article-container .article-items .article-item .article-thumb {
+    height: 180px;
+}
+
+.recipe-page .article-container .article-items .article-item .article-meta .category {
+    background-color: #ffc200;
+}
+
+.recipe-page .article-container .article-items .article-item .article-meta .reading-time span.text::before {
+    width: 19px;
+    height: 19px;
+    background: url(../images/icons/on-clock-white.svg);
+}
+
+.recipe-page .article-container .article-items .article-item .article-meta .calories {
+    position: relative;
+    margin-left: 15px;
+}
+
+.recipe-page .article-container .article-items .article-item .article-meta .calories span.text {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 22px;
+}
+
+.recipe-page .article-container .article-items .article-item .article-meta .calories span.text::before {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    content: "";
+    width: 13px;
+    height: 18px;
+    background: url(../images/icons/on-kcal-white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.recipe-page .article-container .article-items .article-item .article-title h2,
+.recipe-page .article-container .article-items .article-item .article-meta .reading-time span.text {
+    color: #fff;
+}
+
+.recipe-page .article-container .btn-box {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.recipe-page .article-container .btn-box .text {}
+
+.recipe-page .article-container .btn-box .text p {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.recipe-page .article-container .btn-box .text p span {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 26px;
+}
+
+.recipe-page .article-container .btn-box .btn.load-more {
+    border: 2px solid #fff;
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    padding: 15px 50px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+/*========================================================================================
+        Recipe Details Page Styles
+========================================================================================*/
+
+.recipe-details-page {
+    max-width: 1240px;
+    margin: 20px auto 0px;
+    padding-bottom: 60px;
+}
+
+.recipe-details-page .breadcrumb-container .breadcrumb {
+    padding-left: 0;
+}
+
+.recipe-details-page .left-content .recipe-big-thumb {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.recipe-details-page .left-content .recipe-video {
+    margin-bottom: 50px;
+}
+
+.recipe-details-page .left-content .recipe-text-container {
+    position: relative;
+    font-size: 18px;
+}
+
+.recipe-details-page .left-content .recipe-text-container .title {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.recipe-details-page .left-content .recipe-text-container .title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: #fff;
+}
+
+.recipe-details-page .left-content .recipe-text-container p {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.recipe-details-page .left-content .recipe-text-container a {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    color: #fff;
+    text-decoration: underline !important;
+}
+
+.recipe-details-page .left-content .recipe-text-container a:hover {
+    text-decoration: none !important;
+}
+
+.recipe-details-page .left-content .recipe-text-container ol {
+    margin: 0;
+    padding: 0;
+    counter-reset: li;
+}
+
+.recipe-details-page .left-content .recipe-text-container ol li {
+    position: relative;
+    list-style: none;
+    font-family: "BlenderPro-Book", "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 12px;
+    padding-left: 33px;
+    color: #fff;
+}
+
+.recipe-details-page .left-content .recipe-text-container ol li::before {
+    content: counter(li) ".";
+    counter-increment: li;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33px;
+}
+
+.recipe-details-page .right-content {
+    position: relative;
+    margin-left: 20px;
+}
+
+.recipe-details-page .right-content .recipe-title {}
+
+.recipe-details-page .right-content .recipe-title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.recipe-details-page .right-content .nutritional-information {
+    background: #fff;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-top: 35px;
+}
+
+.recipe-details-page .right-content .nutritional-information .nutritional-information-item {
+    width: 20%;
+    color: #fff;
+}
+
+.recipe-details-page .right-content .nutritional-information .nutritional-information-item p {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.recipe-details-page .right-content .nutritional-information .nutritional-information-item h5 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 24px;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.recipe-details-page .right-content .nutritional-information .nutritional-information-item sub {
+    bottom: 0;
+}
+
+.recipe-details-page .right-content .recipe-preparation {
+    position: relative;
+    margin-top: 35px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-value {
+    position: relative;
+    width: 27%;
+    margin-right: 20px;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-value::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 25px;
+    height: 42px;
+    background: url(../images/icons/on-clock-white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-value span.text {
+    font-size: 17px;
+    padding-left: 40px;
+    color: #fff;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-value span.text span.number {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-unit {
+    position: relative;
+    padding-left: 45px;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-unit::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 35px;
+    height: 42px;
+    background: url(../images/icons/on-servings-white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-unit p {
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-unit span.text {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.recipe-details-page .right-content .recipe-preparation .stat-unit span.text span.number {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+.recipe-details-page .right-content .ingredients {
+    margin-top: 30px;
+}
+
+.recipe-details-page .right-content .ingredients h3.title {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: #fff;
+}
+
+.recipe-details-page .right-content .ingredients .ingredients-content ul {}
+
+.recipe-details-page .right-content .ingredients .ingredients-content ul li {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.recipe-details-page .right-content .ingredients .ingredients-content ul li a {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    color: #fff;
+    text-decoration: underline !important;
+}
+
+.recipe-details-page .right-content .ingredients .ingredients-content ul li a:hover {
+    text-decoration: none !important;
+}
+
+.recipe-details-page .recipe-text-container.mobile {
+    position: relative;
+    display: none;
+}
+
+.recipe-details-page .recipe-text-container.mobile .title {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.recipe-details-page .recipe-text-container.mobile .title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: #fff;
+}
+
+.recipe-details-page .recipe-text-container.mobile {
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+}
+
+.recipe-details-page .recipe-text-container.mobile {
+    position: relative;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.recipe-details-page .recipe-text-container.mobile p {
+    margin-bottom: 5px;
+}
+
+.recipe-details-page .recipe-text-container.mobile a {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    color: #000;
+    text-decoration: underline !important;
+}
+
+.recipe-details-page .recipe-text-container.mobile a:hover {
+    text-decoration: none !important;
+}
+
+.recipe-details-page .recipe-text-container.mobile ol {
+    margin: 0;
+    padding: 0;
+    counter-reset: li;
+    margin-bottom: 20px;
+}
+
+.recipe-details-page .recipe-text-container.mobile ol li {
+    position: relative;
+    list-style: none;
+    font-family: "BlenderPro-Book", "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 12px;
+    padding-left: 25px;
+    color: #fff;
+}
+
+.recipe-details-page .recipe-text-container.mobile ol li::before {
+    content: counter(li) ".";
+    counter-increment: li;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33px;
+}
+
+/*========================================================================================
+        Sitemap Page Styles
+========================================================================================*/
+
+.site-map-page-content {
+    padding-bottom: 60px;
+    position: relative;
+    min-height: 450px;
+}
+
+.sitemap-links {
+    margin-bottom: 40px;
+}
+
+.sitemap-links .title {}
+
+.sitemap-links .title h3 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.sitemap-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sitemap-links ul li {}
+
+.sitemap-links ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*========================================================================================
+        Article Page Styles
+========================================================================================*/
+
+.athletes-page {
+    position: relative;
+    padding: 60px;
+    padding-top: 30px;
+}
+
+.athletes-page .breadcrumb-container .breadcrumb {
+    padding: 0;
+}
+
+.athletes-page .page-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.athletes-page .page-title:after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #b59461;
+    position: absolute;
+    bottom: -30px;
+    left: calc(50% - 35px);
+}
+
+.athletes-page .page-title h2 {
+    margin-bottom: 10px;
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.athletes-page .page-title p {
+    margin-bottom: 40px;
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.athletes-page .article-container {
+    position: relative;
+    background: #1a1a1a;
+    padding: 50px 70px;
+}
+
+.athletes-page .article-items {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.athletes-page .article-items .article-item {
+    position: relative;
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.athletes-page .article-items .article-item a {
+    position: relative;
+    width: 100%;
+    height: initial;
+    display: block;
+    color: #000;
+}
+
+.athletes-page .article-items .article-item .article-thumb {
+    position: relative;
+    width: 100%;
+    height: 210px;
+}
+
+.athletes-page .article-items .article-item .article-thumb .thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.athletes-page .article-items .article-item .article-title {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.athletes-page .article-items .article-item .article-title h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.athletes-page .article-items .article-item a.btn {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    display: inline-block;
+    width: initial;
+    height: auto;
+    background-color: #fff;
+    color: #000;
+    margin-top: 10px;
+}
+
+/*========================================================================================
+        Athlete Page Styles
+========================================================================================*/
+
+.athlete-details-page {
+    position: relative;
+    padding-top: 40px;
+}
+
+.athlete-details-content {
+    position: relative;
+}
+
+.athlete-details-content .left-content {
+    width: 58%;
+}
+
+.athlete-details-content .right-content {
+    width: 42%;
+}
+
+.athlete-details-content .athlete-banner .banner-thumb {
+    position: relative;
+}
+
+.athlete-details-content .athlete-banner {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.athlete-details-content .athlete-banner .banner-thumb::after {
+    background-color: rgba(26, 26, 26, 0.3);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: background-color 0.3s;
+    width: 100%;
+    z-index: 0;
+}
+
+.athlete-details-content .athlete-banner .athlete-intro {
+    position: relative;
+    background-color: #f6f6f6;
+    margin-top: -250px;
+    margin: -130px 61px 0;
+    padding: 50px 56px 60px;
+    width: 576px;
+}
+
+.athlete-details-content .athlete-banner .athlete-intro div {
+    position: relative;
+    display: inline-block;
+}
+
+.athlete-details-content .athlete-banner .athlete-intro h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.athlete-details-content .athlete-banner .athlete-intro h4 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 25px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.athlete-details-content .athlete-banner .athlete-intro p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.athlete-details-content .athlete-fav-product {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.athlete-details-content .athlete-fav-product .fav-product-image {
+    background-color: #eae8e9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.athlete-details-content .athlete-fav-product .right-content {
+    flex: 0 0 calc(42% + 100px);
+    margin-left: -100px;
+}
+
+.athlete-details-content .athlete-fav-product .text-box {
+    background-color: #f6f6f6;
+    padding: 50px 55px;
+}
+
+.athlete-details-content .athlete-fav-product .text-box h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.athlete-details-content .athlete-fav-product .text-box p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.athlete-details-content .athlete-fav-product .text-box a.btn {
+    background-color: #000;
+    padding: 13px 30px;
+    border-radius: 0px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in;
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.athlete-details-content .athlete-fav-recipe {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.athlete-details-content .athlete-fav-recipe .col-sm-6:first-child {
+    padding-right: 0;
+}
+
+.athlete-details-content .athlete-fav-recipe .col-sm-6:last-child {
+    padding-left: 0;
+}
+
+.athlete-details-content .athlete-fav-recipe .text-box {
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 30px;
+    text-align: center;
+    min-height: 231px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.athlete-details-content .athlete-fav-recipe .text-box h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+.athlete-details-content .athlete-fav-recipe .text-box a.btn {
+    background-color: #000;
+    padding: 13px 30px;
+    border-radius: 0px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in;
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.athlete-details-content .athlete-biography {
+    position: relative;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.athlete-details-content .athlete-biography .right-content {
+    flex: 0 0 calc(42% + 100px);
+    margin-left: -100px;
+    margin-top: 150px;
+}
+
+.athlete-details-content .athlete-biography .text-box {
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 40px 40px 30px;
+    z-index: 1;
+}
+
+.athlete-details-content .athlete-biography .text-box h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.athlete-details-content .athlete-biography .text-box p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.fadeIn {
+    animation: fadeIn 3s;
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.athlete-details-content .athlete-biography .text-box a.btn {
+    background-color: #000;
+    padding: 13px 30px;
+    border-radius: 0px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in;
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.athlete-details-content .athlete-biography .owl-nav {
+    top: 80px;
+}
+
+.athlete-details-content .athlete-biography .owl-nav .owl-prev {
+    display: none;
+}
+
+.athlete-details-content .athlete-biography .owl-nav .owl-next {
+    right: -70px;
+    width: 70px;
+    height: 70px;
+    background-color: #bfbfbf;
+}
+
+.athlete-details-content .athlete-biography .owl-nav .owl-next:hover {
+    background-color: #fff;
+}
+
+.athlete-details-content .athlete-biography .owl-nav .owl-next span {
+    font-size: 50px;
+}
+
+.athlete-details-content .athlete-biography .owl-nav .owl-next:hover span {
+    color: #000;
+}
+
+.athlete-details-content .athlete-biography .owl-dots {}
+
+.athlete-details-content .athlete-biography .owl-dots .owl-dot span {
+    display: inline-block;
+    background-color: #bfbfbf;
+    opacity: 0.7;
+    width: 24px;
+    height: 5px;
+    margin-right: 12px;
+}
+
+.athlete-details-content .athlete-biography .owl-dots .owl-dot.active span {
+    background-color: #fff;
+    opacity: 1;
+}
+
+/*========================================================================================
+    Sustainability Page Styles
+========================================================================================*/
+
+.sustainability-page {
+    position: relative;
+    background-color: #fff;
+}
+
+.sustainability-page .breadcrumb-container {
+    padding-left: 100px;
+}
+
+.sustainability-page .breadcrumb {
+    margin-top: 1.5rem;
+}
+
+.sustainability-page .breadcrumb-container .breadcrumb .breadcrumb-item,
+.sustainability-page .breadcrumb-item+.breadcrumb-item::before,
+.sustainability-page .breadcrumb-container .breadcrumb .breadcrumb-item a {
+    color: #000;
+}
+
+.sustainability-page-content .commitment-text-box {
+    position: relative;
+    padding: 80px 0 60px;
+    text-align: center;
+    max-width: 880px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.sustainability-page-content .commitment-text-box::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80px;
+    height: 5px;
+    background-color: #000;
+    content: "";
+    margin: 0 auto;
+}
+
+.sustainability-page-content .commitment-text-box h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1px;
+}
+
+.sustainability-page-content .commitment-text-box h4 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 30px 0;
+}
+
+.sustainability-page-content .commitment-text-box p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.sustainability-page-content .commitment-card-item {
+    padding: 80px 250px;
+    text-align: center;
+}
+
+.sustainability-page-content .commitment-card-item h2 {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.sustainability-page-content .commitment-card-item .text-box {
+    position: relative;
+    padding: 60px 40px;
+    min-height: 250px;
+    background-color: #f0eff2;
+}
+
+.sustainability-page-content .commitment-card-item .text-box h3 {
+    font-family: "BlenderPro-Medium", "Roboto", sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    color: #b59461;
+}
+
+.sustainability-page-content .commitment-card-item .text-box h3 span {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+}
+
+.sustainability-page-content .commitment-card-item .link-text-box {
+    position: relative;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.sustainability-page-content .commitment-card-item .link-text-box p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.sustainability-page-content .commitment-card-item .link-text-box a {
+    font-family: "BlenderPro-Bold", "Roboto", sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
