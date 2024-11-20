@@ -24,7 +24,7 @@ const App = () => {
         <div>
           <Navbar language={language} setLanguage={setLanguage}/>
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/articles" element={<Articles />} />
             <Route path="/article/:pageName" element={<Article />} />
             <Route path="/recipes" element={<Recipes />} />
