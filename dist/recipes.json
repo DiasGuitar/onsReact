@@ -1,0 +1,368 @@
+[
+  {
+    "id": 1,
+    "pageName": "peanut-butter-banana-protein-oatmeal-squares",
+    "title": "Peanut Butter Banana Protein Oatmeal Squares",
+    "category": "Snacks",
+    "description": "A delicious and nutritious snack, perfect for post-workout or a healthy treat, packed with protein and the goodness of bananas and oats.",
+    "image": "https://optimumnutritionsea.com/uploads/recipes/1622642485-76749976.jpg",
+    "preparationTime": "35 min",
+    "servings": 12,
+    "nutritionalInformation": {
+      "calories": 248,
+      "protein": "15.0",
+      "carbs": "34.5",
+      "fat": "6.5"
+    },
+    "ingredients": [
+      "3 cups (735g) nonfat milk",
+      "2 medium (236g) bananas (mashed)",
+      "3 tablespoons (20g) ground flaxseed",
+      "5 cups (400g) old fashioned oats",
+      "3 scoops (96g) Gold Standard 100% Whey - Vanilla",
+      "1/4 cup (22g) powdered peanut butter",
+      "2 teaspoons cinnamon",
+      "1 1/2 teaspoons baking powder",
+      "1/2 teaspoon salt",
+      "1/4 cup (69g) natural smooth peanut butter"
+    ],
+    "method": [
+      "Preheat oven to 350 degrees. Prepare a 9x13-inch baking dish by spraying well with nonstick cooking spray.",
+      "Mix the wet ingredients (milk through flaxseed) together in a large bowl. Stir in the dry ingredients (oats, protein powder, powdered peanut butter, and spices) and mix until combined.",
+      "Spoon the oat batter into the prepared baking dish. Bake for 25-28 minutes or until the center is just set and the edges are a light golden brown.",
+      "Cool the baking dish on a cooling rack until room temperature. Drizzle with peanut butter (if your peanut butter is very thick, warm in the microwave for 30 seconds before drizzling). Slice into 12 squares.",
+      "Serve warm, topped with banana slices or chopped nuts if desired (macros for additional toppings not included)."
+    ],
+    "notes": [
+      "This recipe is freezer friendly - freeze the squares in a freezer-safe zip-top bag for up to 3 months. Defrost individual squares in the microwave for 30-60 seconds on medium power.",
+      "You could also try other flavors of Optimum Nutrition Gold Standard 100% Whey protein powder in this recipe. Chocolate, mocha cappuccino, chocolate peanut butter, or salted caramel would be particularly delicious!"
+    ]
+  },
+  {
+    "id": 2,
+    "pageName": "chocolate-protein-blender-muffins",
+    "title": "Chocolate Protein Blender Muffins",
+    "category": "Snacks",
+    "description": "A delicious, protein-packed chocolate muffin made with healthy ingredients, perfect for breakfast or a quick snack.",
+    "image": "https://optimumnutritionsea.com/uploads/recipes/1622642354-9904193.jpg",
+    "preparationTime": "45 min",
+    "servings": 6,
+    "nutritionalInformation": {
+      "calories": 260,
+      "protein": "12.0",
+      "carbs": "37.0",
+      "fat": "7.0"
+    },
+    "ingredients": [
+      "2 scoops Double Rich Chocolate Gold Standard 100% Whey Protein powder",
+      "2 medium ripe bananas",
+      "1/4 cup maple syrup",
+      "2 tbsp melted coconut oil",
+      "1 3/4 cup rolled oats",
+      "1/4 cup cocoa powder",
+      "1 1/2 tsp baking soda",
+      "1/4 tsp salt",
+      "1/4 cup almond milk"
+    ],
+    "method": [
+      "Preheat the oven to 350 degrees. Line a muffin tin with muffin liners.",
+      "Combine all ingredients in a high-speed blender until smooth and creamy. Fill muffin liners 3/4 full.",
+      "Bake for 25 minutes until the top has puffed up and a toothpick inserted comes out clean.",
+      "Allow cooling for 10 minutes before removing from muffin tin."
+    ],
+    "notes": []
+  },
+  {
+    "id": 3,
+    "pageName": "double-chocolate-protein-oatmeal",
+    "title": "Double Chocolate Protein Oatmeal",
+    "category": "Meals",
+    "description": "A rich and hearty chocolate oatmeal recipe packed with protein for a delicious start to your day.",
+    "image": "https://optimumnutritionsea.com/uploads/recipes/1622642185-19481268.jpg",
+    "preparationTime": "10 min",
+    "servings": 2,
+    "nutritionalInformation": {
+      "calories": 500,
+      "protein": "32.0",
+      "carbs": "62.0",
+      "fat": "14.0"
+    },
+    "ingredients": [
+      "¾ cup Oats",
+      "2 cups milk (or non-dairy milk)",
+      "½ sliced banana",
+      "1 tbsp peanut butter",
+      "1 tsp vanilla extract",
+      "1 tbsp cocoa powder",
+      "½ - 1 scoop Double Rich Chocolate Gold Standard 100% Whey Protein powder"
+    ],
+    "method": [
+      "In a medium saucepan, combine all ingredients. Stir well to combine. Bring mixture to a low boil, then cook for 3-4 minutes until desired consistency. Add 1-2 tbsp of maple syrup for extra sweetness if desired.",
+      "Serve oatmeal with sliced banana and peanut butter."
+    ],
+    "notes": []
+  },
+  {
+    "id": 4,
+    "pageName": "gold-standard-100-whey-peanut-butter-cups",
+    "title": "Gold Standard 100% Whey Peanut Butter Cups",
+    "category": "Snacks",
+    "description": "Delicious and protein-packed peanut butter cups made with Gold Standard 100% Whey for a perfect treat.",
+    "image": "https://img.youtube.com/vi/lNf6hqxw-Bk/mqdefault.jpg",
+    "preparationTime": "30 min",
+    "servings": 12,
+    "nutritionalInformation": {
+      "calories": 100,
+      "protein": "8.0",
+      "carbs": "4.5",
+      "fat": "8.0"
+    },
+    "ingredients": [
+      "2 cups semi-sweet chocolate chips",
+      "1 cup natural peanut butter",
+      "2 scoops Gold Standard 100% Whey – Vanilla Ice Cream",   
+      "1 tbsp coconut oil",
+      "1/2 tsp sea salt (optional)"
+    ],
+    "method": [
+      "Melt chocolate chips and coconut oil in a microwave-safe bowl in 30-second intervals, stirring in between, until smooth.",
+      "Line a muffin tin with liners and pour 1-2 teaspoons of melted chocolate into each liner, spreading it to cover the bottom. Place in the freezer for 10 minutes.",
+      "Mix peanut butter and Gold Standard 100% Whey in a separate bowl until smooth. Add a small spoonful of the peanut butter mixture on top of the frozen chocolate base and spread it evenly.",
+      "Pour another 1-2 teaspoons of melted chocolate on top of the peanut butter layer, spreading to cover.",
+      "Freeze the cups for another 10-15 minutes or until set. Store in the refrigerator."
+    ],
+    "notes": [
+      "Customize by adding a sprinkle of sea salt on top for a sweet and salty treat.",
+      "You can use dark chocolate for a richer flavor or milk chocolate for a sweeter option."
+    ],
+    "video": "https://youtu.be/lNf6hqxw-Bk"
+  },
+  {
+    "id": 5,
+    "pageName": "100-whey-strawberry-banana-protein-smoothie-bowl",
+    "title": "100% Whey Strawberry Banana Protein Smoothie Bowl",
+    "category": "Snacks",
+    "description": "A refreshing and healthy smoothie bowl packed with protein, perfect for a quick breakfast or snack.",
+    "image": "https://img.youtube.com/vi/PO31vjO5AbU/mqdefault.jpg",
+    "preparationTime": "10 min",
+    "servings": 2,
+    "nutritionalInformation": {
+      "calories": 120,
+      "protein": "14.0",
+      "carbs": "15.0",
+      "fat": "0.5"
+    },
+    "ingredients": [
+      "70g Frozen Banana",
+      "130g Frozen Strawberries",
+      "1 scoop Gold Standard 100% Whey, Banana Cream",
+      "100ml Coconut water"
+    ],
+    "method": [
+      "Blend all ingredients in a blender until smooth.",
+      "Pour into a bowl and serve."
+    ],
+    "notes": []
+  },
+  {
+    "id": 6,
+    "pageName": "amino-energy-ice-pops",
+    "title": "Amino Energy Ice Pops",
+    "category": "Snacks",
+    "description": "Refreshing and energizing ice pops, perfect for cooling down on a hot day while getting your daily amino energy boost.",
+    "image": "https://optimumnutritionsea.com/uploads/recipes/1622643172-32121213.jpg",
+    "preparationTime": "140 min",
+    "servings": 4,
+    "nutritionalInformation": {
+      "calories": 4,
+      "protein": "0",
+      "carbs": "1",
+      "fat": "0"
+    },
+    "ingredients": [
+      "2 scoops Amino Energy, any flavor",
+      "500ml water",
+      "Optional: fruit slices for garnish"
+    ],
+    "method": [
+      "Mix Amino Energy powder with water until fully dissolved.",
+      "Pour the mixture into ice pop molds.",
+      "Add optional fruit slices into the molds for garnish.",
+      "Freeze for at least 2 hours or until fully set."
+    ],
+    "notes": [
+      "Experiment with different Amino Energy flavors to create a variety of refreshing pops.",
+      "Great for post-workout or as a mid-day treat."
+    ]
+  },
+  {
+    "id": 7,
+    "pageName": "amino-energy-green-apple-gummies",
+    "title": "Amino Energy Green Apple Gummies",
+    "category": "Snacks",
+    "description": "Delicious and energizing green apple-flavored gummies made with Amino Energy, perfect for a quick boost.",
+    "image": "https://optimumnutritionsea.com/uploads/recipes/1622643044-23063941.jpg",
+    "preparationTime": "11 min",
+    "servings": 1,
+    "nutritionalInformation": {
+      "calories": 10,
+      "protein": "2.0",
+      "carbs": "0.0",
+      "fat": "0.0"
+    },
+    "ingredients": [
+      "1 cup water",
+      "2 scoops Amino Energy Green Apple flavor",
+      "4 packets (28g each) unflavored unsweetened gelatin"
+    ],
+    "method": [
+      "In a shaker cup, mix 1 cup water, 2 scoops of Amino Energy Green Apple flavor, and 4 packets of unflavored unsweetened gelatin.",
+      "Pour the mixture into a skillet and place over low heat, stirring frequently, until particles dissolve.",
+      "Pour into a mold of your choice; an ice cube tray works well.",
+      "Chill in the fridge for at least 1 hour."
+    ],
+    "notes": [
+      "Use other ON Amino Energy flavors to make your own creations."
+    ]
+  },
+  {
+    "id": 8,
+    "pageName": "avocado-casein-protein-truffle-balls",
+    "title": "Avocado Casein Protein Truffle Balls",
+    "category": "Snacks",
+    "description": "Rich, creamy, and protein-packed truffle balls made with avocado and casein protein for a guilt-free treat.",
+    "image": "https://img.youtube.com/vi/6QcAWD1DIJo/mqdefault.jpg",
+    "preparationTime": "30 min",
+    "servings": 5,
+    "nutritionalInformation": {
+      "calories": 140,
+      "protein": "4.0",
+      "carbs": "12.0",
+      "fat": "8.0"
+    },
+    "ingredients": [
+      "1 ripe avocado",
+      "2 scoops Casein Protein (Chocolate or Vanilla)",
+      "2 tbsp cocoa powder",
+      "1 tbsp honey (optional, for sweetness)",
+      "1/4 cup almond flour",
+      "1/4 cup shredded coconut (optional, for coating)"
+    ],
+    "method": [
+      "Mash the avocado in a mixing bowl until smooth.",
+      "Add the casein protein powder, cocoa powder, honey, and almond flour to the bowl. Mix until a dough forms.",
+      "Roll the dough into small balls, about 1 inch in diameter.",
+      "If desired, roll the truffle balls in shredded coconut to coat.",
+      "Chill in the refrigerator for at least 1 hour before serving."
+    ],
+    "notes": [
+      "Store in an airtight container in the refrigerator for up to 3 days.",
+      "Try using different flavors of casein protein to create unique variations."
+    ]
+  },
+  {
+    "id": 9,
+    "pageName": "100-casein-matcha-nice-cream",
+    "title": "100% Casein Matcha Nice Cream",
+    "category": "Snacks",
+    "description": "A creamy and delicious nice cream made with matcha and casein protein, perfect for a healthy dessert or post-workout treat.",
+    "image": "https://img.youtube.com/vi/CoWs5zTTY_A/mqdefault.jpg",
+    "preparationTime": "15 min",
+    "servings": 1,
+    "nutritionalInformation": {
+      "calories": 150,
+      "protein": "12.0",
+      "carbs": "26.0",
+      "fat": "0.0"
+    },
+    "ingredients": [
+      "125g frozen banana",
+      "1/2 tsp vanilla extract",
+      "1/4 tsp xantham gum",
+      "4g stevia",
+      "1g matcha powder",
+      "5g Gold Standard 100% Casein, Vanilla"
+    ],
+    "method": [
+      "Blend frozen bananas and vanilla extract well in a food processor.",
+      "Add xantham gum, stevia, matcha powder, and Casein to the food processor and mix until well combined.",
+      "Place in freezer for about 5 minutes, then serve."
+    ],
+    "notes": [
+      "Enjoy with fresh fruit or a waffle cone for extra indulgence.",
+      "For a richer flavor, experiment with other protein powder flavors."
+    ]
+  },
+  {
+    "id": 10,
+    "pageName": "hydrowhey-protein-chocolate-chip-cookies",
+    "title": "HydroWhey Protein Chocolate Chip Cookies",
+    "category": "Snacks",
+    "description": "Soft and chewy chocolate chip cookies made with HydroWhey for a protein-packed treat.",
+    "image": "https://img.youtube.com/vi/oFZ4PuvXhdw/mqdefault.jpg",
+    "preparationTime": "20 min",
+    "servings": "6-8",
+    "nutritionalInformation": {
+      "calories": 160,
+      "protein": "6.0g",
+      "carbs": "6.0g",
+      "fat": "12.0g"
+    },
+    "ingredients": [
+      "76g Blanched Almond Flour",
+      "3-4 Tbsp Choc Chips",
+      "20g Vanilla HydroWhey",
+      "2-3 tsp Stevia",
+      "1/8 tsp Baking Soda",
+      "1/4 tsp Salt",
+      "2 Tbsp Coconut Oil",
+      "3 Tbsp Oat Milk",
+      "1/4 tsp Vanilla Extract"
+    ],
+    "method": [
+      "Mix together almond flour, chocolate chips, HydroWhey, stevia, baking soda, and salt in a bowl.",
+      "Add in coconut oil, oat milk, and vanilla extract and combine.",
+      "Once you have dough, form into balls that are about a 2 Tbsp portion.",
+      "Flatten dough on a baking sheet lined with parchment paper.",
+      "Bake at 180°C for 8-10 minutes until golden brown.",
+      "Cool before serving."
+    ],
+    "notes": [
+      "Add extra chocolate chips on top for decoration before baking.",
+      "Store cookies in an airtight container for up to a week."
+    ]
+  },
+  {
+    "id": 11,
+    "pageName": "hydrowhey-protein-blueberry-pancakes",
+    "title": "HydroWhey Protein Blueberry Pancakes",
+    "category": "Snacks",
+    "description": "Fluffy and protein-rich pancakes made with HydroWhey, perfect for breakfast or a post-workout treat.",
+    "image": "https://img.youtube.com/vi/lbZwrwSugfI/mqdefault.jpg",
+    "preparationTime": "20 min",
+    "servings": "2-3",
+    "nutritionalInformation": {
+      "calories": 80,
+      "protein": "8.0g",
+      "carbs": "12.0g",
+      "fat": "0.5g"
+    },
+    "ingredients": [
+      "45g Liquid Egg Whites",
+      "20g Pancake Mix",
+      "15g Vanilla HydroWhey",
+      "5g Coconut Flour",
+      "2g Stevia",
+      "20g Fresh Blueberries"
+    ],
+    "method": [
+      "Mix together all ingredients in a bowl until silky smooth.",
+      "Place a portion of the mixture on the pan to cook.",
+      "Cook each pancake about 1-2 minutes on each side."
+    ],
+    "notes": [
+      "Top pancakes with additional fresh blueberries or a drizzle of honey for extra sweetness.",
+      "Serve warm with a side of Greek yogurt for added protein."
+    ]
+  }    
+]

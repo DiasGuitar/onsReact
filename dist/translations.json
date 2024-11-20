@@ -1,0 +1,130 @@
+{
+    "navbar": {
+        "products": {
+            "en": "Products",
+            "th": "ผลิตภัณฑ์",
+            "vi": "Sản phẩm",
+            "id": "Produk"
+        },
+        "articles": {
+            "en": "Articles",
+            "th": "บทความ",
+            "vi": "Bài viết",
+            "id": "Artikel"
+        },
+        "recipes": {
+            "en": "Recipes",
+            "th": "สูตรอาหาร",
+            "vi": "Công thức nấu ăn",
+            "id": "Resep"
+        },
+        "sustainability": {
+            "en": "Sustainability",
+            "th": "ความยั่งยืน",
+            "vi": "Bền vững",
+            "id": "Keberlanjutan"
+        },
+        "authentication": {
+            "en": "Authentication",
+            "th": "การยืนยันตัวตน",
+            "vi": "Xác thực",
+            "id": "Otentikasi"
+        },
+        "contact_us": {
+            "en": "Contact Us",
+            "th": "ติดต่อเรา",
+            "vi": "Liên hệ chúng tôi",
+            "id": "Hubungi Kami"
+        },
+        "shop_now": {
+            "en": "Shop Now",
+            "th": "ช้อปเลย",
+            "vi": "Mua ngay",
+            "id": "Belanja Sekarang"
+        }
+    },
+    "home": {
+        "hero_banner": {
+            "title": {
+                "en": "Supplements That Work As Hard As You Do",
+                "th": "ผลิตภัณฑ์เสริมอาหารที่ทำงานหนักเหมือนคุณ",
+                "vi": "Thực phẩm bổ sung hoạt động chăm chỉ như bạn",
+                "id": "Suplemen yang Bekerja Seperti Anda"
+            }
+        },
+        "specialty_section": {
+            "title": {
+                "en": "The World’s #1 Protein Brand, For a Reason.",
+                "th": "แบรนด์โปรตีนอันดับ 1 ของโลก ด้วยเหตุผล",
+                "vi": "Thương hiệu protein số 1 thế giới, với lý do.",
+                "id": "Merek Protein #1 Dunia, Untuk Alasan."
+            }
+        }
+    },
+    "gold_standard_whey": {
+        "intro_section": {
+            "title": {
+                "en": "Aim Higher & Recover Smarter",
+                "th": "ตั้งเป้าหมายที่สูงขึ้นและฟื้นตัวอย่างชาญฉลาด",
+                "vi": "Nhắm cao hơn & Phục hồi thông minh hơn",
+                "id": "Bidik Lebih Tinggi & Pulihkan Lebih Cerdas"
+            }
+        },
+        "benefits_section": {
+            "benefit_1": {
+                "en": "Helps Build & Maintain Muscle",
+                "th": "ช่วยสร้างและรักษากล้ามเนื้อ",
+                "vi": "Giúp xây dựng & duy trì cơ bắp",
+                "id": "Membantu Membentuk & Mempertahankan Otot"
+            },
+            "benefit_2": {
+                "en": "Supports Endurance & Recovery",
+                "th": "สนับสนุนความอดทนและการฟื้นตัว",
+                "vi": "Hỗ trợ sức bền & phục hồi",
+                "id": "Mendukung Daya Tahan & Pemulihan"
+            }
+        }
+    },
+    "sitemap": {
+        "title": {
+            "en": "Sitemap",
+            "th": "แผนผังเว็บไซต์",
+            "vi": "Sơ đồ trang web",
+            "id": "Peta Situs"
+        },
+        "products": {
+            "en": "Products",
+            "th": "ผลิตภัณฑ์",
+            "vi": "Sản phẩm",
+            "id": "Produk"
+        },
+        "other": {
+            "en": "Other",
+            "th": "อื่นๆ",
+            "vi": "Khác",
+            "id": "Lainnya"
+        }
+    },
+    "sustainability": {
+        "title": {
+            "en": "GPN's Sustainability Commitment",
+            "th": "ความมุ่งมั่นด้านความยั่งยืนของ GPN",
+            "vi": "Cam kết bền vững của GPN",
+            "id": "Komitmen Keberlanjutan GPN"
+        },
+        "goals": {
+            "reduce_food_waste": {
+                "en": "Reducing food waste in our facilities by 50% by the end of 2030.",
+                "th": "ลดขยะอาหารในสถานที่ของเราลง 50% ภายในปี 2030",
+                "vi": "Giảm lãng phí thực phẩm trong các cơ sở của chúng tôi 50% vào cuối năm 2030.",
+                "id": "Mengurangi limbah makanan di fasilitas kami sebesar 50% pada akhir tahun 2030."
+            },
+            "recyclable_packaging": {
+                "en": "Achieving 100% recyclable, reusable or compostable packaging by the end of 2030.",
+                "th": "บรรลุเป้าหมายบรรจุภัณฑ์รีไซเคิลได้ 100% หรือย่อยสลายได้ภายในปี 2030",
+                "vi": "Đạt được 100% bao bì có thể tái chế, tái sử dụng hoặc phân hủy sinh học vào cuối năm 2030.",
+                "id": "Mencapai 100% kemasan yang dapat didaur ulang, digunakan kembali, atau dikomposkan pada akhir tahun 2030."
+            }
+        }
+    }
+}
